@@ -11,6 +11,8 @@ nav:
   - MEAN Stack:
     - MEAN/index.md
     - MySQL: MEAN/mysql.md
+    - Javascript: MEAN/javascript.md
+    - Typescript: MEAN/typescript.md
     - Mongo: MEAN/mongo.md
     - Angular: MEAN/angular.md
     - Node.js:
