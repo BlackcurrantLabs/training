@@ -11,11 +11,14 @@ nav:
   - MEAN Stack:
     - MEAN/index.md
     - MySQL: MEAN/mysql.md
+    - Mongo: MEAN/mongo.md
     - Javascript: MEAN/javascript.md
     - Typescript: MEAN/typescript.md
-    - Mongo: MEAN/mongo.md
+    - HTML: MEAN/html.md
+    - Styling: MEAN/styling.md
     - Angular: MEAN/angular.md
     - Node.js:
+      - MEAN/node.md
       - Express: MEAN/express.md
       - Sequelize: MEAN/sequelize.md
       - Mongoose: MEAN/mongoose.md
