@@ -2,7 +2,9 @@
 
 CSS is the design language of the web. You need to know the basics before we can move to advanced concepts like SCSS.
 
-The fasted way to get started with CSS would be <a href="https://www.w3schools.com/css/default.asp">w3schools</a>
+!!! tldr "Resources"
+    The fasted way to get started with CSS would be <a href="https://www.w3schools.com/css/default.asp">w3schools</a>
+
 
 <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap</a> makes it rediculously simple for people not so keen on design to make something that's atleast usable. It's really crutial to get acquainted with the basic classes for structure, forms and navigation that bootstrap offers.
 

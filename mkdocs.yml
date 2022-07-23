@@ -27,8 +27,8 @@ nav:
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  logo: assets/logo-icon-white.png
+  favicon: assets/logo-icon-white.png
   palette:
     scheme: default
     primary: deep purple
