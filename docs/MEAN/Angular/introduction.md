@@ -12,7 +12,7 @@ Angular is a lot more structured than react and is therefore our framework of ch
 Using Agular, we can re-use components of a web page in differnt locations and add significant "Brains" to the frontend of the site.
 
 !!! tldr "Resources"
-    To learn anguar, the best place to start is <a href="https://angular.io/docs">https://angular.io/</a>
+    To learn Angular, the best place to start is <a href="https://angular.io/docs">https://angular.io/</a>
     
     Make sure to complete the <a href="https://angular.io/tutorial">Tour of Heroes Tutorial</a>
 

@@ -7,7 +7,9 @@ repo_url: https://github.com/BlackcurrantLabs/training
 copyright: Copyright &copy; 2016 - 2022 Blackcurrant Labs Pvt. Ltd.
 
 nav:
-  - Home: index.md
+  - Home: 
+    - Introduction: index.md
+    - Contribute: contribute.md
   - MEAN Stack:
     - Introduction: MEAN/index.md
     - HTML: MEAN/html.md
@@ -17,14 +19,13 @@ nav:
     - MySQL: MEAN/mysql.md
     - Mongo: MEAN/mongo.md
     - Angular: 
-      - Introduction: MEAN/angular.md
+      - Introduction: MEAN/Angular/introduction.md
+      - Advanced Concepts: MEAN/Angular/advanced-concepts.md
     - Node.js:
-      - Introduction: MEAN/node.md
-      - Express: MEAN/express.md
-      - Sequelize: MEAN/sequelize.md
-      - Mongoose: MEAN/mongoose.md
-  - Contribute: 
-    - Local Setup: contribute.md
+      - Introduction: MEAN/Node/node.md
+      - Express: MEAN/Node/express.md
+      - Sequelize: MEAN/Node/sequelize.md
+      - Mongoose: MEAN/Node/mongoose.md
 
 theme:
   name: material
