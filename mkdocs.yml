@@ -16,16 +16,18 @@ nav:
     - CSS: MEAN/css.md
     - Javascript: MEAN/javascript.md
     - Typescript: MEAN/typescript.md
-    - MySQL: MEAN/mysql.md
-    - Mongo: MEAN/mongo.md
     - Angular: 
       - Introduction: MEAN/Angular/introduction.md
       - Advanced Concepts: MEAN/Angular/advanced-concepts.md
     - Node.js:
       - Introduction: MEAN/Node/node.md
       - Express: MEAN/Node/express.md
-      - Sequelize: MEAN/Node/sequelize.md
+    - Mongo:
+      - Learn Mongo: MEAN/mongo.md
       - Mongoose: MEAN/Node/mongoose.md
+    - MySQL: 
+      - Learn MySQL: MEAN/mysql.md 
+      - Sequelize: MEAN/Node/sequelize.md
 
 theme:
   name: material
