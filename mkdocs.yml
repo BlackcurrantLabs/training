@@ -28,6 +28,8 @@ nav:
     - MySQL: 
       - Learn MySQL: MEAN/mysql.md 
       - Sequelize: MEAN/Node/sequelize.md
+  - UI/UX:
+    - Introduction: UI/UX/index.md
 
 theme:
   name: material
