@@ -1,17 +1,17 @@
 # Sequelize JS
 
-Sequelize is an ORM that helps your write queries for relational Databases. It supports Postgres, MySQL, SQLite ect. Other popular orm's are Prisma, TypeORM ect.
+Sequelize is an ORM that helps your write queries for relational Databases. It supports Postgres, MySQL, SQLite, etc. Other popular ORMs are Prisma, TypeORM, etc.
 
-Defining models and validations and querying via them avoids smaller error in development time. While it's possible to fire native queries also, but it's highly recommended not to.
+Defining models and validations and querying via them avoids smaller errors in development time. While it's possible to fire native queries also, it's highly recommended not to.
 
-Sequelize is particularly useful to join tables and return the result in nested JSON objects. This makes writing api logic very easy.
+Sequelize is particularly useful to join tables and return the result in nested JSON objects. This makes writing API logic very easy.
 
 !!! tldr "Project Homepage"
     [https://sequelize.org/](https://sequelize.org/)
 
 !!! tldr "Sequelize CLI"
     This small utility can help with getting started with sequelize in your express project very easily.
-    It will layout the scaffolds and create some primitive models to help you get started.
+    It will lay out the scaffolds and create some primitive models to help you get started.
 
     [https://www.npmjs.com/package/sequelize-cli](https://www.npmjs.com/package/sequelize-cli)
 

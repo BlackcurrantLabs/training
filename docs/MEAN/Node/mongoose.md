@@ -1,6 +1,6 @@
 # Mongoose
 
-Mongoose is the preferred ODM for mongodb. Althought the node MongoDB driver is very advanced, we use mongoose for typed schema definitions, validations and easy joining capabilities.
+Mongoose is the preferred ODM for MongoDB. Although the node MongoDB driver is very advanced, we use mongoose for typed schema definitions, validations, and easy joining capabilities.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DZBGEVgL2eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
