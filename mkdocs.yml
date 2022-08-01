@@ -31,6 +31,10 @@ nav:
       - Sequelize: MEAN/Node/sequelize.md
     - Git: 
       - Introduction: git.md
+  - UI/UX:
+    - Introduction: UI/UX/index.md
+    - Laws of UX: UI/UX/laws-ux.md
+    - Best Practices: UI/UX/principals.md
 
 theme:
   name: material
