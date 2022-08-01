@@ -21,6 +21,7 @@ nav:
       - Advanced Concepts: MEAN/Angular/advanced-concepts.md
     - Node.js:
       - Introduction: MEAN/Node/node.md
+      - REST Basics: MEAN/rest.md
       - Express: MEAN/Node/express.md
     - Mongo:
       - Learn Mongo: MEAN/mongo.md
@@ -28,6 +29,8 @@ nav:
     - MySQL: 
       - Learn MySQL: MEAN/mysql.md 
       - Sequelize: MEAN/Node/sequelize.md
+    - Git: 
+      - Introduction: git.md
 
 theme:
   name: material
