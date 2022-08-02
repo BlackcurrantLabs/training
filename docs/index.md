@@ -47,4 +47,4 @@ While knowing multiple concepts is important, so is choosing your specialization
 Gaining depth of knowledge in your field is of primary importance, and having a working understanding of what your colleagues are doing is the next priority.
 So it's better to go ahead with a modified saying, **"Jack of all trades, master of *Some*."**
 
-# **[Get Started with MEAN](/MEAN/)**
+# <p align="center"><a href="/MEAN/">Get Started with MEAN</a></p>

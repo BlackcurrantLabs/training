@@ -47,12 +47,10 @@ nav:
       - Introduction: QA/Manual/Introduction.md
       - SDLC: QA/Manual/sdlc.md
       - STLC : QA/Manual/stlc.md
-      
-
-    
-    
   - Jobs: 
     - Apply: jobs.md
+  - Build With Blackcurrant: 
+    - build-with-us.md
 
 theme:
   name: material
