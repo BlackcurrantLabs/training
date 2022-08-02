@@ -37,6 +37,16 @@ nav:
     - Introduction: UI/UX/index.md
     - Laws of UX: UI/UX/laws-ux.md
     - Best Practices: UI/UX/principals.md
+  - QA:
+    - Introduction: QA/index.md
+    - Manual: 
+      - Introduction: QA/Manual/Introduction.md
+      - SDLC: QA/Manual/sdlc.md
+      - STLC : QA/Manual/stlc.md
+      
+
+    
+    
   - Jobs: 
     - Apply: jobs.md
 
