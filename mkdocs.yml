@@ -19,10 +19,14 @@ nav:
     - Angular: 
       - Introduction: MEAN/Angular/introduction.md
       - Advanced Concepts: MEAN/Angular/advanced-concepts.md
+    - REST Basics: MEAN/rest.md
     - Node.js:
       - Introduction: MEAN/Node/node.md
-      - REST Basics: MEAN/rest.md
       - Express: MEAN/Node/express.md
+    - Authentication:
+      - Introduction: Auth/authentication.md
+      - Bcrypt: Auth/bcrypt.md
+      - JWT: Auth/jwt.md
     - Mongo:
       - Learn Mongo: MEAN/Mongo/mongo.md
       - Mongoose: MEAN/Mongo/mongoose.md
