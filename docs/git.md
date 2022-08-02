@@ -14,3 +14,8 @@ The actual branching strategy used will vary from project to project and will be
 An example strategy is shown below.
 
 <img src="/assets/branching.png">
+
+!!! success "Course"
+    
+    Complete this course<br>
+    <a href="https://www.coursera.org/learn/version-control-with-git">https://www.coursera.org/learn/version-control-with-git</a>

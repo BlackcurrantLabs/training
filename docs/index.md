@@ -12,11 +12,16 @@ The resources are mentioned in the order they have to be learned as there will b
 
 !!! info "Skip Sections"
 
-    You may skip the sections that you already know, We're trying to make this a guide from 0 to mastery.
+    You may skip the sections that you already know or are irrelevant to your field.
 
 !!! tldr "Resources"
 
     Most pages have a resources section that has links to official sources or project documentation. Documentation is always the holy grail and reading through this will expose you to many concepts which might never be covered in youtube videos.
+
+!!! success "Courses"
+
+    Some sections have a course linked to them. These courses are free and you're expected to complete them and add that course certificate to your profile.
+    All the courses mentioned here are small and you should be able to comlete them well before the paid tier starts
 
 !!! danger "Tutorial Hell"
 

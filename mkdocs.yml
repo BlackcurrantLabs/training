@@ -24,11 +24,11 @@ nav:
       - REST Basics: MEAN/rest.md
       - Express: MEAN/Node/express.md
     - Mongo:
-      - Learn Mongo: MEAN/mongo.md
-      - Mongoose: MEAN/Node/mongoose.md
+      - Learn Mongo: MEAN/Mongo/mongo.md
+      - Mongoose: MEAN/Mongo/mongoose.md
     - MySQL: 
-      - Learn MySQL: MEAN/mysql.md 
-      - Sequelize: MEAN/Node/sequelize.md
+      - Learn MySQL: MEAN/MySQL/mysql.md 
+      - Sequelize: MEAN/MySQL/sequelize.md
     - Git: 
       - Introduction: git.md
     - Swagger:

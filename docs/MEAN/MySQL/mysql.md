@@ -11,6 +11,9 @@ They may lack the scalability of NoSQL but the advantages they offer in terms of
 We generally use MySQL with **sequelize** ORM in **expressjs** projects. Express and Sequelize will be introduced in later chapters but you still need solid foundations in SQL to really use them to the fullest.
 
 
-
 !!! tldr "Resources"
     The best place to get a good grasp on SQL concepts would be to follow the SQL tutorial on <a href="https://www.w3schools.com/sql/">https://www.w3schools.com/sql/</a>
+
+!!! success "Course"
+    Complete this course<br>
+    <a href="https://www.coursera.org/learn/intro-sql">https://www.coursera.org/learn/intro-sql</a>

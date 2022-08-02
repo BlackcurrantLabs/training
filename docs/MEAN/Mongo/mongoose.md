@@ -4,7 +4,7 @@ Mongoose is the preferred ODM for MongoDB. Although the node MongoDB driver is v
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DZBGEVgL2eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! success "Project Homepage"
+!!! tldr "Project Homepage"
     <a href="https://mongoosejs.com/">https://mongoosejs.com/</a>
 
 !!! tldr "Schemas"
