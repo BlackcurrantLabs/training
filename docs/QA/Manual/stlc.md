@@ -7,4 +7,4 @@ Software Testing Life Cycle (STLC) is a testing strategy that can help you effic
 <img src="/assets/stlc.jpg"> </dr>
 
 !!! tldr "Resources"
-    Find more to learn : <a href="https://www.geeksforgeeks.org/software-testing-life-cycle-stlc/">https://www.geeksforgeeks.org/software-testing-life-cycle-stlc/</a>
+    Find more to learn : <a target="_blank" href="https://www.geeksforgeeks.org/software-testing-life-cycle-stlc/">https://www.geeksforgeeks.org/software-testing-life-cycle-stlc/</a>

@@ -5,5 +5,5 @@
 Express is a backend framework for nodeJS. It's really basic and un-opinionated, unlike other frameworks.
 
 !!! tldr "Resources"
-    <a href="https://expressjs.com/">Express</a> project website 
+    <a target="_blank" href="https://expressjs.com/">Express</a> project website 
 

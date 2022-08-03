@@ -18,4 +18,4 @@ An example strategy is shown below.
 !!! success "Course"
     
     Complete this course<br>
-    <a href="https://www.coursera.org/learn/version-control-with-git">https://www.coursera.org/learn/version-control-with-git</a>
+    <a target="_blank" href="https://www.coursera.org/learn/version-control-with-git">https://www.coursera.org/learn/version-control-with-git</a>

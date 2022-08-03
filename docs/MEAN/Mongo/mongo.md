@@ -11,6 +11,6 @@ Where there is Dynamic / Unknown size and structure of data choose mongo.
 We generally use MongoDB with **mongoose** ORM in **expressjs** projects. Express and Mongoose will be introduced in later chapters but you still need solid foundations in Mongo & aggregation pipelines to really use them to the fullest.
 
 !!! success "Course"
-    Best resource to learn MongoDB is this course <a href="https://university.mongodb.com/courses/M001/about">https://university.mongodb.com/courses/M001/about</a>
+    Best resource to learn MongoDB is this course <a target="_blank" href="https://university.mongodb.com/courses/M001/about">https://university.mongodb.com/courses/M001/about</a>
 
 

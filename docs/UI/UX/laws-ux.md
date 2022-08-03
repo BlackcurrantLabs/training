@@ -65,4 +65,4 @@ The Von Restorff effect, also known as The Isolation Effect, predicts that when 
 People remember uncompleted or interrupted tasks better than completed tasks.
 
 !!! Hint
-    For the above document, we are referring to the book UX laws. Please visit the website <a href="https://lawsofux.com/en/" target="_blank">Laws of UX</a> for additional information.
+    For the above document, we are referring to the book UX laws. Please visit the website <a target="_blank" href="https://lawsofux.com/en/" target="_blank">Laws of UX</a> for additional information.

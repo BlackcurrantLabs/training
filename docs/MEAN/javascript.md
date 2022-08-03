@@ -10,7 +10,7 @@ The wide range of open source packages available in npm makes it a really attrac
 
 There are a few crucial language features that you have to learn to write good code both on the frontend and backend.
 
-<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">MDN</a> is overall a good place to learn javascript.
+<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">MDN</a> is overall a good place to learn javascript.
 
 Pay special attention to the features listed below.
 
@@ -36,7 +36,7 @@ A bit more detailed demo
 
 
 !!! tldr "Resources"
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">MDN</a> has a good post on promises
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">MDN</a> has a good post on promises
 
 
 ## Async / Await
@@ -50,7 +50,7 @@ Quick Video Here
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vn3tm0quoqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! tldr "Resources"
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">MDN</a> has a good post Async/Await
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">MDN</a> has a good post Async/Await
 
 ## RxJS
 RxJS is an event processing pipeline. It's a an important tool to know before getting into Angular / React.
@@ -61,5 +61,5 @@ Watch this video for a Quick Intro here
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PhggNGsSQyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!! tldr "Resources"
-    To master it, head over to the <a href="https://rxjs.dev/guide/overview">official page</a>.
+    To master it, head over to the <a target="_blank" href="https://rxjs.dev/guide/overview">official page</a>.
 

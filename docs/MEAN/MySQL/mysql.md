@@ -12,8 +12,8 @@ We generally use MySQL with **sequelize** ORM in **expressjs** projects. Express
 
 
 !!! tldr "Resources"
-    The best place to get a good grasp on SQL concepts would be to follow the SQL tutorial on <a href="https://www.w3schools.com/sql/">https://www.w3schools.com/sql/</a>
+    The best place to get a good grasp on SQL concepts would be to follow the SQL tutorial on <a target="_blank" href="https://www.w3schools.com/sql/">https://www.w3schools.com/sql/</a>
 
 !!! success "Course"
     Complete this course<br>
-    <a href="https://www.coursera.org/learn/intro-sql">https://www.coursera.org/learn/intro-sql</a>
+    <a target="_blank" href="https://www.coursera.org/learn/intro-sql">https://www.coursera.org/learn/intro-sql</a>

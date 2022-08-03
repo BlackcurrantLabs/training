@@ -6,7 +6,7 @@ Apart from work, we're also a chill bunch to hang out with, the average age at b
 
 We generally have two annual trips to attractive locations and a lot of other one day activities monthly.
 
-Check out our album on <a href="https://life.blackcurrantlabs.com">life.blackcurrantlabs.com</a>
+Check out our album on <a target="_blank" href="https://life.blackcurrantlabs.com">life.blackcurrantlabs.com</a>
 
 ## Positions we're hiring
 
@@ -14,4 +14,4 @@ Check out our album on <a href="https://life.blackcurrantlabs.com">life.blackcur
  - QA Specialists
  - UI/UX Specialists
 
-Apply <a href="https://blackcurrantapps.com/career.php">here</a>.
+Apply <a target="_blank" href="https://blackcurrantapps.com/career.php">here</a>.

@@ -10,9 +10,9 @@ Apart from this, JWT defines some standards to check expiration, validity, authe
 
 !!! tldr "Resource"
     Check out the npm package<br>
-    <a href="https://www.npmjs.com/package/json-web-token">https://www.npmjs.com/package/json-web-token</a>
+    <a target="_blank" href="https://www.npmjs.com/package/json-web-token">https://www.npmjs.com/package/json-web-token</a>
 
 !!! tldr "Resource"
     Check out the online jwt decoder<br>
-    <a href="https://jwt.io/">https://jwt.io/</a>
+    <a target="_blank" href="https://jwt.io/">https://jwt.io/</a>
 

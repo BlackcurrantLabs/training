@@ -11,7 +11,7 @@ Using frontend frameworks and not vanilla js pages is the preferred way to build
 Using Agular, we can re-use components of a web page in different locations and add significant "Brains" to the frontend of the site.
 
 !!! tldr "Resources"
-    To learn Angular, the best place to start is <a href="https://angular.io/docs">https://angular.io/</a>
+    To learn Angular, the best place to start is <a target="_blank" href="https://angular.io/docs">https://angular.io/</a>
     
-    Make sure to complete the <a href="https://angular.io/tutorial">Tour of Heroes Tutorial</a>
+    Make sure to complete the <a target="_blank" href="https://angular.io/tutorial">Tour of Heroes Tutorial</a>
 

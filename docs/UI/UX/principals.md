@@ -25,7 +25,7 @@ Card sorting is a method commonly used to aid the design of information architec
 User personas are archetypical users whose goals and characteristics represent the needs of a larger group of users. Usually, a persona is presented in a one or two-page document (like the one you can see in the example below). Such 1–2-page descriptions include behavior patterns, goals, skills, attitudes, and background information, as well as the environment in which a persona operates. Designers usually create user persona template templates, which include a few fictional personal details to make the persona a realistic character (e.g. quotes of real users), as well as context-specific details (for example, for a banking app it makes sense to include a persona’s financial sophistication and major expenses).
 
 <img src="/assets/user-persona.webp" style="width: 100%">
-*User persona template. Image by <a href="https://xtensio.com/user-persona-template/" target="_blank">Xtensio</a>.*<br><br>
+*User persona template. Image by <a target="_blank" href="https://xtensio.com/user-persona-template/" target="_blank">Xtensio</a>.*<br><br>
 
 #### *2.1. Empathy Mapping*
 Empathy is a core value if designers want to make something that is good for the people who are going to use it. Personas help designers to create understanding and empathy with the end-users.

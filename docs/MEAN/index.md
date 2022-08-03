@@ -2,7 +2,7 @@
 
 <img src="/assets/mean.jpeg">
 
-MEAN stands for Mongo/MySQL Express Angular Nginx.
+MEAN stands for Mongo/MySQL Express Angular NodeJs.
 Together these frameworks and tools work well and provide a really nice developer experience, 
 Hence they are often used together.
 

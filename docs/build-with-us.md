@@ -14,4 +14,4 @@ Blackcurrant Labs is an agile, full stack software application Development & Con
 
 <p align='right'>Sanket Berde</p>
 
-# <p align="center"><a href="https://blackcurrantapps.com/contact-us.php">🔨 softwares with us</a></p>
+# <p align="center"><a target="_blank" href="https://blackcurrantapps.com/contact-us.php">🔨 softwares with us</a></p>

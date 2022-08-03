@@ -15,4 +15,4 @@ These are conveniently wrapped together in a string that can be safely stored in
 
 !!! tldr "Resource"
     Check out the npm package<br>
-    <a href="https://www.npmjs.com/package/bcrypt">https://www.npmjs.com/package/bcrypt</a>
+    <a target="_blank" href="https://www.npmjs.com/package/bcrypt">https://www.npmjs.com/package/bcrypt</a>

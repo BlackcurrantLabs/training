@@ -1,6 +1,6 @@
 # Swagger
 
-Also known as <a href="https://swagger.io/specification/">open api spec</a>, is a structured way of documenting APIs.
+Also known as <a target="_blank" href="https://swagger.io/specification/">open api spec</a>, is a structured way of documenting APIs.
 A swagger docs contains all the different routes exposed by the backend, ways to authenticate them, and the inputs and outpus that that particular API provides.
 
 Swagger doc can be thought of as a contract between the frontend and the backend.
@@ -13,8 +13,8 @@ We use generated client libraries extensively which reduces the effort of writin
 
 !!! tldr "Interative explorer"
 
-    <a href="https://openapi-map.apihandyman.io/">https://openapi-map.apihandyman.io/</a> is an interactive explorer for the fields available in a swagger doc
+    <a target="_blank" href="https://openapi-map.apihandyman.io/">https://openapi-map.apihandyman.io/</a> is an interactive explorer for the fields available in a swagger doc
 
 !!! tldr "Online Editor"
 
-    <a href="https://editor.swagger.io/">https://editor.swagger.io/</a> is an online editor to get started with swagger quickly. Although in real-world projects the swagger file is included in source control.
+    <a target="_blank" href="https://editor.swagger.io/">https://editor.swagger.io/</a> is an online editor to get started with swagger quickly. Although in real-world projects the swagger file is included in source control.

@@ -26,7 +26,7 @@ Look at every part of the design: the spacing between elements, the grid the sit
 
 Just as important as what you love about a site is what you don’t love. Study the site with a critical eye. Try to figure out why you don’t like certain parts of the site, not just that you don’t like them.
 
-*Make it a habit to keep up to date with trending UI/UX designs on <a href="https://dribbble.com/shots/popular/product-design" target="_blank">Dribbble</a> & <a href="https://in.pinterest.com/search/pins/?q=trending%20ui&rs=typed&term_meta[]=trending%7Ctyped&term_meta[]=ui%7Ctyped" target="_blank">Pinterest</a> to stay current, get creative inspiration, and follow designers you admire.*
+*Make it a habit to keep up to date with trending UI/UX designs on <a target="_blank" href="https://dribbble.com/shots/popular/product-design" target="_blank">Dribbble</a> & <a target="_blank" href="https://in.pinterest.com/search/pins/?q=trending%20ui&rs=typed&term_meta[]=trending%7Ctyped&term_meta[]=ui%7Ctyped" target="_blank">Pinterest</a> to stay current, get creative inspiration, and follow designers you admire.*
 
 ### **3. Learn designing tools**
 There are plenty of great tools available on the market, but we suggest trying out a few industry stalwarts such as Adobe XD, Illustrator & Photoshop.
@@ -34,7 +34,7 @@ There are plenty of great tools available on the market, but we suggest trying o
 ### **4. Start designing**
 Reading books and articles or watching design tutorials will only get you so far. What you really need to do to become proficient at UI/UX is actually design digital products and start accumulating a solid body of work.
 
-If you’re starting from scratch, we highly recommend downloading some <a href="https://dribbble.com/resources/free-ui-kits" target="_blank">free UI kits</a> (or user interface kit) to help get your designs started. A UI kit is a set of pre-made design components containing essential visual elements for a specific UI design (think buttons, icons, fonts, menus, etc.).
+If you’re starting from scratch, we highly recommend downloading some <a target="_blank" href="https://dribbble.com/resources/free-ui-kits" target="_blank">free UI kits</a> (or user interface kit) to help get your designs started. A UI kit is a set of pre-made design components containing essential visual elements for a specific UI design (think buttons, icons, fonts, menus, etc.).
 
 Use these UI kits to design your own website or mobile app for starters. But also consider doing redesigns of existing sites. Pick some of your favorite websites and explore how you could redesign them to look and function even better.
 
