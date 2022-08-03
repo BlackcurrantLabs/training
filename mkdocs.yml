@@ -50,7 +50,9 @@ nav:
       - Functional : QA/Manual/functional.md
       - Test Cases: QA/Manual/test.md
       - Defect Lifecycle : QA/Manual/dlc.md
-
+  - Flutter:
+    - Introduction: Flutter/index.md
+    - Basics of Dart: Flutter/basics_of_dart.md
 
   - Jobs: 
     - Apply: jobs.md
