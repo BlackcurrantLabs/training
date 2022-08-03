@@ -1,4 +1,4 @@
-# QUALITY ASSURANCE
+# Quality Assurance
 
 <img src="/assets/qa.jpg">
 

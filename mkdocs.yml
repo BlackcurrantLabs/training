@@ -47,6 +47,11 @@ nav:
       - Introduction: QA/Manual/Introduction.md
       - SDLC: QA/Manual/sdlc.md
       - STLC : QA/Manual/stlc.md
+      - Functional : QA/Manual/functional.md
+      - Test Cases: QA/Manual/test.md
+      - Defect Lifecycle : QA/Manual/dlc.md
+
+
   - Jobs: 
     - Apply: jobs.md
   - Build With Blackcurrant: 
