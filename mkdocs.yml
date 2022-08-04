@@ -50,6 +50,11 @@ nav:
       - Functional : QA/Manual/functional.md
       - Test Cases: QA/Manual/test.md
       - Defect Lifecycle : QA/Manual/dlc.md
+      - Smoke and Sanity : QA/Manual/sst.md
+      - Regression : QA/Manual/regress.md
+      - API : QA/Manual/api.md
+      - Non-Functional : QA/Manual/non-functional.md
+      - Agile Methodology : QA/Manual/agile.md
 
 
   - Jobs: 
