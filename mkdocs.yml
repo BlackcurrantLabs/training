@@ -56,6 +56,9 @@ nav:
       - Non-Functional : QA/Manual/non-functional.md
       - Agile Methodology : QA/Manual/agile.md
 
+  - Flutter:
+    - Introduction: Flutter/index.md
+    - Basics of Dart: Flutter/basics_of_dart.md
 
   - Jobs: 
     - Apply: jobs.md
