@@ -55,7 +55,13 @@ nav:
       - API : QA/Manual/api.md
       - Non-Functional : QA/Manual/non-functional.md
       - Agile Methodology : QA/Manual/agile.md
-
+      - Jira : QA/Manual/jira.md
+    - Automation :
+      - Introduction: QA/Automation/Introduction.md
+      - JavaScript : QA/Automation/javascript.md
+      - Cpyress : QA/Automation/Cypress.md
+      
+      
   - Flutter:
     - Introduction: Flutter/index.md
     - Basics of Dart: Flutter/basics_of_dart.md
