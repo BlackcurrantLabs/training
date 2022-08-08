@@ -65,6 +65,7 @@ nav:
   - Flutter:
     - Introduction: Flutter/index.md
     - Basics of Dart: Flutter/basics_of_dart.md
+    - Introduction to widgets: Flutter/introduction_to_widgets.md
 
   - Jobs: 
     - Apply: jobs.md
