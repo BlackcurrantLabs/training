@@ -14,6 +14,7 @@ nav:
     - Introduction: MEAN/index.md
     - HTML: MEAN/html.md
     - CSS: MEAN/css.md
+    - SCSS: MEAN/scss.md
     - Javascript: MEAN/javascript.md
     - Typescript: MEAN/typescript.md
     - REST Basics: MEAN/rest.md
