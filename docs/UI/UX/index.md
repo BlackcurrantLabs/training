@@ -16,6 +16,12 @@ UX design focuses on creating a delightful experience through meeting user needs
 Understanding why users perform certain actions and what makes them continue using a site (or abandoning that site) is key to creating a digital product that meets user needs as well as business goals.
 
 Luckily, there are plenty of affordable (and free) UX tutorials, courses, and resources all at your disposal as well as tons of books on UX. A good place to start is with Steve Krug’s Don’t Make Me Think. Krug is widely regarded as the godfather of UX design.
+
+!!! tldr "Resources"
+    Listen to the podcast below.
+
+    - [Fundamentals of UX](https://palette69.design/thinking/fundamentals-of-ui-and-ux/)
+
 ### **2. Develop your eye for good UI/UX design**
 
 Learning the basic principles of design will only take you so far. To really take your skills to the next level, practice studying the designs of websites and mobile apps you love with a critical eye.
@@ -30,6 +36,14 @@ Just as important as what you love about a site is what you don’t love. Study 
 
 ### **3. Learn designing tools**
 There are plenty of great tools available on the market, but we suggest trying out a few industry stalwarts such as Adobe XD, Illustrator & Photoshop.
+#### ***3.1 Adobe XD***
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3rQ-eTmWah0" title="Learn Adobe XD in 2021 by Example (Crash Course)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### ***3.2 Adobe Photoshop***
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NNkGiab2dWU" title="Free Adobe Photoshop Course for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### ***3.3 Adobe Ilustrator***
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ib8UBwu3yGA" title="Adobe Illustrator for Beginners | FREE COURSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### **4. Start designing**
 Reading books and articles or watching design tutorials will only get you so far. What you really need to do to become proficient at UI/UX is actually design digital products and start accumulating a solid body of work.
@@ -38,6 +52,12 @@ If you’re starting from scratch, we highly recommend downloading some <a targe
 
 Use these UI kits to design your own website or mobile app for starters. But also consider doing redesigns of existing sites. Pick some of your favorite websites and explore how you could redesign them to look and function even better.
 
+!!! tldr "Resources"
+    Participate in daily UI/UX design challenges to develop your design skills.
+
+    - [DailyUI](https://www.dailyui.co/)
+    - [UX Design](https://uxdesign.cc/daily-ux-ui-challenges-finding-a-way-to-train-my-skills-daily-1df24139c42)
+
 ### **5. Ask for feedback (and learn from it)**
 
 Contrary to popular belief, negative feedback can actually be much more useful than positive feedback. It can help you grow as a designer, level-up your skills, and create better products.
@@ -45,10 +65,3 @@ Contrary to popular belief, negative feedback can actually be much more useful t
 Learn to seek and embrace negative design feedback and use it as fuel to improve your designs. Post your work on Dribbble and ask for constructive criticism—the community is here to help.
 
 In the end, negative feedback can be one of the most positive things that can happen in your design career. Just remember, you don’t need to overhaul all of your skills overnight. Trying to become one percent better every day will bring steady progress to success.
-
-
-!!! tldr "Resources"
-    Participate in daily UI/UX design challenges to develop your design skills.
-
-    - [DailyUI](https://www.dailyui.co/)
-    - [UX Design](https://uxdesign.cc/daily-ux-ui-challenges-finding-a-way-to-train-my-skills-daily-1df24139c42)
