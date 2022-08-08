@@ -43,7 +43,7 @@ nav:
     - Best Practices: UI/UX/principals.md
   - QA:
     - Introduction: QA/index.md
-    - Manual: 
+    - Manual : 
       - Introduction: QA/Manual/Introduction.md
       - SDLC: QA/Manual/sdlc.md
       - STLC : QA/Manual/stlc.md
@@ -58,10 +58,15 @@ nav:
       - Jira : QA/Manual/jira.md
     - Automation :
       - Introduction: QA/Automation/Introduction.md
-      - JavaScript : QA/Automation/javascript.md
-      - Cpyress : QA/Automation/Cypress.md
-      
-      
+      - Javascript : QA/Automation/javascript.md
+      - Cypress : QA/Automation/Cypress.md
+      - Protractor : QA/Automation/protractor.md
+      - Jest : QA/Automation/Jest.md   
+    - Mobile Testing :
+      - Introduction : QA/Mobile/mobile.md
+    - Advance :
+      - Certificate : QA/Certificates/certificate.md
+        
   - Flutter:
     - Introduction: Flutter/index.md
     - Basics of Dart: Flutter/basics_of_dart.md

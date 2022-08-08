@@ -12,5 +12,5 @@ Scrum is a lightweight framework that helps people, teams, and organizations gen
 
 
 !!! tldr "Resources"
-    Find more to learn on Non-Functional Testing : <a target="_blank" href="https://www.guru99.com/agile-scrum-extreme-testing.html">https://www.guru99.com/agile-scrum-extreme-testing.html</a>
+    Find more to learn : <a target="_blank" href="https://www.guru99.com/agile-scrum-extreme-testing.html">https://www.guru99.com/agile-scrum-extreme-testing.html</a>
 

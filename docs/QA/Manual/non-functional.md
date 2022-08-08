@@ -19,7 +19,7 @@ Performance testing is a form of software testing that focuses on how a system r
 
 
 !!! tldr "Resources"
-    Find more to learn on Non-Functional Testing : <a target="_blank" href="https://www.tricentis.com/learn/performance-testing/">https://www.tricentis.com/learn/performance-testing/</a>
+    Find more to learn : <a target="_blank" href="https://www.tricentis.com/learn/performance-testing/">https://www.tricentis.com/learn/performance-testing/</a>
 
 
 ## Cross-Browser Testing.
@@ -28,7 +28,7 @@ Cross Browser Testing is a type of testing to verify if an application works acr
 
 
 !!! tldr "Resources"
-    Find more to learn on Non-Functional Testing : <a target="_blank" href="https://testsigma.com/cross-browser-testing">https://testsigma.com/cross-browser-testing</a>
+    Find more to learn : <a target="_blank" href="https://testsigma.com/cross-browser-testing">https://testsigma.com/cross-browser-testing</a>
 
 
 ## Security Testing.
@@ -40,7 +40,7 @@ Security testing is an integral part of software testing, which is used to disco
 
 
 !!! tldr "Resources"
-    Find more to learn on Non-Functional Testing : <a target="_blank" href="https://www.geeksforgeeks.org/software-testing-security-testing/">https://www.geeksforgeeks.org/software-testing-security-testing/</a>
+    Find more to learn : <a target="_blank" href="https://www.geeksforgeeks.org/software-testing-security-testing/">https://www.geeksforgeeks.org/software-testing-security-testing/</a>
 
 
 ## Responsive Testing.
@@ -50,7 +50,7 @@ The goal of responsive testing is to check if all the website components are ada
 
 
 !!! tldr "Resources"
-    Find more to learn on Non-Functional Testing : <a target="_blank" href="https://www.lambdatest.com/learning-hub/responsive-testing">https://www.lambdatest.com/learning-hub/responsive-testing</a>
+    Find more to learn : <a target="_blank" href="https://www.lambdatest.com/learning-hub/responsive-testing">https://www.lambdatest.com/learning-hub/responsive-testing</a>
 
 
 
