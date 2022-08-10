@@ -72,6 +72,7 @@ nav:
     - Introduction: Flutter/index.md
     - Basics of Dart: Flutter/basics_of_dart.md
     - Introduction to widgets: Flutter/introduction_to_widgets.md
+    - Stateful and stateless widgets: Flutter/stateful_and_stateless_widgets.md
 
   - Jobs: 
     - Apply: jobs.md

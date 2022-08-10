@@ -121,3 +121,7 @@ The Container widget lets you create a rectangular visual element. A container c
 Output:
 
 <image src="/assets/flutter-widget-output.png" width=200px/>
+
+
+!!! tldr "Resources"
+    For more examples on widget, read <a href="https://docs.flutter.dev/development/ui/widgets-intro">official documentation.</a>
