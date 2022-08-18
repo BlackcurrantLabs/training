@@ -6,7 +6,7 @@ Quality is defined as the product or services that should be "fit for use and pu
 
 Quality is all about meeting the needs and expectations of customers concerning the functionality, design, reliability, durability, and price of the product.Quality assurance is part of the software development process which ensures that what you are giving is as per the requirements.
 
-</br></br>
+</br>
 
 
 

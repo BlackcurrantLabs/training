@@ -67,7 +67,30 @@ nav:
       - Introduction : QA/Mobile/mobile.md
     - Advance :
       - Certificate : QA/Certificates/certificate.md
-        
+  - BA:
+    - Introduction : BA/Index.md
+    - SDLC : BA/SDLC.md
+    - Requirement Gathering : BA/Requirement_gathering.md
+    - Software Engineering Models:
+      - Waterfall Model : BA/Software_Engineering_Models/waterfall.md
+      - Iterative Model : BA/Software_Engineering_Models/iterative.md
+      - V-Model : BA/Software_Engineering_Models/v-model.md
+      - RAD Model : BA/Software_Engineering_Models/rad.md
+      - Spiral Model : BA/Software_Engineering_Models/spiral.md
+      - Agile Methodology : BA/Software_Engineering_Models/agile.md
+      - Scrum Model : BA/Software_Engineering_Models/scrum.md
+      - Kanban Model : BA/Software_Engineering_Models/kanban.md
+    - Documentation : 
+      - Business Requirements Document(BRD) : BA/Documentation/brd.md
+      - User Stories : BA/Documentation/user_stories.md
+      - Flowcharts : BA/Documentation/flowchart.md
+      - Data Flow Diagram(DFD) : BA/Documentation/dfd.md
+      - Entity Relationship(ER) Diagram : BA/Documentation/er.md
+    - Testing :
+      - User Acceptance Testing : BA/Testing/uat.md
+    - Tools :
+      - JIRA : BA/Tools/jira.md
+      - Confluence : BA/Tools/confluence.md
   - Flutter:
     - Introduction: Flutter/index.md
     - Basics of Dart: Flutter/basics_of_dart.md
