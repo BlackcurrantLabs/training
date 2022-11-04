@@ -56,7 +56,6 @@ nav:
       - API : QA/Manual/api.md
       - Non-Functional : QA/Manual/non-functional.md
       - Agile Methodology : QA/Manual/agile.md
-      - Principles : QA/Manual/principle.md 
       - Jira : QA/Manual/jira.md
     - Automation :
       - Introduction: QA/Automation/Introduction.md
