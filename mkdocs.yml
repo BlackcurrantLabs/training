@@ -42,6 +42,7 @@ nav:
     - Introduction: UI/UX/index.md
     - Laws of UX: UI/UX/laws-ux.md
     - Best Practices: UI/UX/principals.md
+    - Design Guidelines: UI/UX/design-guidelines.md
   - QA:
     - Introduction: QA/index.md
     - Manual : 

@@ -1,0 +1,26 @@
+# Design Guidelines
+
+- A wireframing tool should be used to create the UI/UX design. (XD, Figma).
+- Follow the design guidelines when designing an app.
+    - [Android Guideline](https://m3.material.io/components)
+    - [iOS Guideline](https://developer.apple.com/design/human-interface-guidelines/platforms/designing-for-ios/)
+- Please note in the design guidelines if you are using any UI frameworks when designing.
+- For designing, a grid layout is recommended.
+- The grid should be used to create mobile responsive websites & apps.
+- Artboards should be labeled.
+- The prototype should be fully functional.
+- All measurements should be in pixels.
+- Small, medium and large desktops should all be taken into account when designing.
+- You should only use two fonts. Google fonts are recommended.
+    - Numbers should be clearly readable in the chosen font.
+    - Base font size should be defined and followed in the application.
+    - All heading tag fonts and sizes should be defined and used consistently throughout the application.
+- Color schemes should be defined separately, and colors outside the scheme should be avoided.
+    - Primary, secondary, text color, and background color all must be defined.
+- The application's spacing should be consistent.
+- All similar icons should be exported with a fixed-size transparent background layer and icon center alignment. Padding on the background layer should not exceed 2 pixels. 
+    - If an icon library is used, please specify it in the export file.
+    - It is best to use icons in SVG format.
+    - The names of images and icons should correspond to their uses in applications.
+    - The name of the icon should be followed by the letters “ic”.
+- Mobile responsive design should not be fundamentally different from web design.
