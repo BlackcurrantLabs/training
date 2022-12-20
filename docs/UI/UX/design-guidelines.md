@@ -18,7 +18,8 @@
 - Color schemes should be defined separately, and colors outside the scheme should be avoided.
     - Primary, secondary, text color, and background color all must be defined.
 - The application's spacing should be consistent.
-- All similar icons should be exported with a fixed-size transparent background layer and icon center alignment. Padding on the background layer should not exceed 2 pixels. 
+- All similar icons should be exported with a fixed-size transparent background layer and icon center alignment. Padding on the background layer should not exceed 2 pixels.
+    - The line stroke of icons should be the same size throughout the application.
     - If an icon library is used, please specify it in the export file.
     - It is best to use icons in SVG format.
     - The names of images and icons should correspond to their uses in applications.
