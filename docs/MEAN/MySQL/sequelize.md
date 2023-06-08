@@ -42,7 +42,7 @@ Making models bullet-proof for production applications
 ### Associations
 Linking models to each other via one to one, one to many or many to one relationships.
 
-[https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/](https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/)
+[https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/](https://sequelize.org/docs/v6/core-concepts/assocs/)
 
 ### Eager Loading
 Using linking defined in models to query across multiple tables for nested outputs.
