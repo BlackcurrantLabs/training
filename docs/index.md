@@ -23,6 +23,13 @@ The resources are mentioned in the order they have to be learned as there will b
     Some sections have a course linked to them. These courses are free and you're expected to complete them and add that course certificate to your profile.
     All the courses mentioned here are small and you should be able to comlete them well before the paid tier starts
 
+!!! danger "ChatGPT / CoPilot Safe usage"
+
+    Using Coding assistants is going to be a norm in the near future, but please keep these wise words with you on when to use and when not to use them.
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6CGtwF_5kzY?si=xzH63bWmxcBMqgIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 !!! danger "Tutorial Hell"
 
     While youtube videos are a quick way to get started, they often lack the depth of knowledge that actual documentation provides. **DO NOT** rely on videos only, they are merely there to provide an overview and do not constitute the full syllabus.
