@@ -38,6 +38,20 @@ nav:
       - Introduction: git.md
     - Swagger:
       - Introduction: swagger.md
+  - NextJs:
+    - Introduction: Next/Intro.md
+    - React: Next/react.md
+    - NextJS: Next/next.md
+    - Auth: Next/authentication.md
+    - State Management: Next/state-management.md
+    - Client & Server Components: Next/client-server-components.md
+    - TailwindCSS: Next/tailwindcss.md
+    - Shadcn: Next/shadcn.md
+    - Drizzle: Next/drizzle.md
+    - Orval: Next/orval.md
+    - React Query: Next/react-query.md
+    - Forms: Next/forms.md
+    - Tables:  Next/tables.md
   - UI/UX:
     - Introduction: UI/UX/index.md
     - Laws of UX: UI/UX/laws-ux.md
@@ -82,7 +96,8 @@ nav:
       - Agile Methodology : BA/Software_Engineering_Models/agile.md
       - Scrum Model : BA/Software_Engineering_Models/scrum.md
       - Kanban Model : BA/Software_Engineering_Models/kanban.md
-    - Documentation : 
+    - Documentation:
+      - Introduction: BA/Documentation/documentation.md
       - Business Requirements Document(BRD) : BA/Documentation/brd.md
       - User Stories : BA/Documentation/user_stories.md
       - Flowcharts : BA/Documentation/flowchart.md
