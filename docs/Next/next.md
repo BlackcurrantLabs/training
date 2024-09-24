@@ -1,4 +1,4 @@
-!!! danger "Prerequisites"
+!!! info "Prerequisites"
 
     Before starting with next,
     You need to know React
@@ -10,6 +10,11 @@
 
 ## Learn NextJS app router
 
+We recommend using only "App Router" as it's Next's newest and most supported structure for all future releases.
+Detailed documentation is availble on <a href="https://nextjs.org/docs/app">https://nextjs.org/docs/app</a> 
+
+!!! danger "Pages Router"
+    Pages router is the old way of building apps with nextjs, it's been discontinued for use within our company, but vercel has promised to support it with no plans for deprecation.
 
 ## Test your understanding 
 
