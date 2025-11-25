@@ -7,118 +7,120 @@ repo_url: https://github.com/BlackcurrantLabs/training
 copyright: Copyright &copy; 2016 - 2022 Blackcurrant Labs Pvt. Ltd.
 
 nav:
-  - Home: 
-    - Introduction: index.md
-    - Contribute: contribute.md
+  - Home:
+      - Introduction: index.md
+      - Contribute: contribute.md
   - MEAN Stack:
-    - Introduction: MEAN/index.md
-    - HTML: MEAN/html.md
-    - CSS: MEAN/css.md
-    - SCSS: MEAN/scss.md
-    - Javascript: MEAN/javascript.md
-    - Typescript: MEAN/typescript.md
-    - REST Basics: MEAN/rest.md
-    - Angular: 
-      - Introduction: MEAN/Angular/introduction.md
-      - Advanced Concepts: MEAN/Angular/advanced-concepts.md
-    - Node.js:
-      - Introduction: MEAN/Node/node.md
-      - Express: MEAN/Node/express.md
-    - Authentication:
-      - Introduction: Auth/authentication.md
-      - Bcrypt: Auth/bcrypt.md
-      - JWT: Auth/jwt.md
-    - Mongo:
-      - Learn Mongo: MEAN/Mongo/mongo.md
-      - Mongoose: MEAN/Mongo/mongoose.md
-    - MySQL: 
-      - Learn MySQL: MEAN/MySQL/mysql.md 
-      - Sequelize: MEAN/MySQL/sequelize.md
-    - Git: 
-      - Introduction: git.md
-    - Swagger:
-      - Introduction: swagger.md
+      - Introduction: MEAN/index.md
+      - HTML: MEAN/html.md
+      - CSS: MEAN/css.md
+      - SCSS: MEAN/scss.md
+      - Javascript: MEAN/javascript.md
+      - Typescript: MEAN/typescript.md
+      - REST Basics: MEAN/rest.md
+      - Angular:
+          - Introduction: MEAN/Angular/introduction.md
+          - Advanced Concepts: MEAN/Angular/advanced-concepts.md
+      - Node.js:
+          - Introduction: MEAN/Node/node.md
+          - Express: MEAN/Node/express.md
+      - Authentication:
+          - Introduction: Auth/authentication.md
+          - Bcrypt: Auth/bcrypt.md
+          - JWT: Auth/jwt.md
+      - Mongo:
+          - Learn Mongo: MEAN/Mongo/mongo.md
+          - Mongoose: MEAN/Mongo/mongoose.md
+      - MySQL:
+          - Learn MySQL: MEAN/MySQL/mysql.md
+          - Sequelize: MEAN/MySQL/sequelize.md
+      - Git:
+          - Introduction: git.md
+      - Swagger:
+          - Introduction: swagger.md
   - NextJs:
-    - Introduction: Next/Intro.md
-    - React: Next/react.md
-    - NextJS: Next/next.md
-    - Auth: Next/authentication.md
-    - State Management: Next/state-management.md
-    - Client & Server Components: Next/client-server-components.md
-    - TailwindCSS: Next/tailwindcss.md
-    - Shadcn: Next/shadcn.md
-    - Drizzle: Next/drizzle.md
-    - Orval: Next/orval.md
-    - React Query: Next/react-query.md
-    - Forms: Next/forms.md
-    - Tables:  Next/tables.md
+      - Introduction: Next/Intro.md
+      - React: Next/react.md
+      - NextJS: Next/next.md
+      - Routing: Next/routing.md
+      - Auth: Next/authentication.md
+      - State Management: Next/state-management.md
+      - Client & Server Components: Next/client-server-components.md
+      - TailwindCSS: Next/tailwindcss.md
+      - Shadcn: Next/shadcn.md
+      - Drizzle: Next/drizzle.md
+      - Prisma: Next/prisma.md
+      - Orval: Next/orval.md
+      - React Query: Next/react-query.md
+      - Forms: Next/forms.md
+      - Tables: Next/tables.md
   - UI/UX:
-    - Introduction: UI/UX/index.md
-    - Laws of UX: UI/UX/laws-ux.md
-    - Best Practices: UI/UX/principals.md
-    - Design Guidelines: UI/UX/design-guidelines.md
+      - Introduction: UI/UX/index.md
+      - Laws of UX: UI/UX/laws-ux.md
+      - Best Practices: UI/UX/principals.md
+      - Design Guidelines: UI/UX/design-guidelines.md
   - QA:
-    - Introduction: QA/index.md
-    - Manual : 
-      - Introduction: QA/Manual/Introduction.md
-      - SDLC: QA/Manual/sdlc.md
-      - STLC : QA/Manual/stlc.md
-      - Functional : QA/Manual/functional.md
-      - Test Cases: QA/Manual/test.md
-      - Defect Lifecycle : QA/Manual/dlc.md
-      - Smoke and Sanity : QA/Manual/sst.md
-      - Regression : QA/Manual/regress.md
-      - API : QA/Manual/api.md
-      - Non-Functional : QA/Manual/non-functional.md
-      - Agile Methodology : QA/Manual/agile.md
-      - Principles : QA/Manual/principle.md 
-      - Jira : QA/Manual/jira.md
-    - Automation :
-      - Introduction: QA/Automation/Introduction.md
-      - Javascript : QA/Automation/javascript.md
-      - Cypress : QA/Automation/Cypress.md
-      - Protractor : QA/Automation/protractor.md
-      - Jest : QA/Automation/Jest.md   
-    - Mobile Testing :
-      - Introduction : QA/Mobile/mobile.md
-    - Advance :
-      - Certificate : QA/Certificates/certificate.md
+      - Introduction: QA/index.md
+      - Manual:
+          - Introduction: QA/Manual/Introduction.md
+          - SDLC: QA/Manual/sdlc.md
+          - STLC: QA/Manual/stlc.md
+          - Functional: QA/Manual/functional.md
+          - Test Cases: QA/Manual/test.md
+          - Defect Lifecycle: QA/Manual/dlc.md
+          - Smoke and Sanity: QA/Manual/sst.md
+          - Regression: QA/Manual/regress.md
+          - API: QA/Manual/api.md
+          - Non-Functional: QA/Manual/non-functional.md
+          - Agile Methodology: QA/Manual/agile.md
+          - Principles: QA/Manual/principle.md
+          - Jira: QA/Manual/jira.md
+      - Automation:
+          - Introduction: QA/Automation/Introduction.md
+          - Javascript: QA/Automation/javascript.md
+          - Cypress: QA/Automation/Cypress.md
+          - Protractor: QA/Automation/protractor.md
+          - Jest: QA/Automation/Jest.md
+      - Mobile Testing:
+          - Introduction: QA/Mobile/mobile.md
+      - Advance:
+          - Certificate: QA/Certificates/certificate.md
   - BA:
-    - Introduction : BA/Index.md
-    - SDLC : BA/SDLC.md
-    - Requirement Gathering : BA/Requirement_gathering.md
-    - Software Engineering Models:
-      - Waterfall Model : BA/Software_Engineering_Models/waterfall.md
-      - Iterative Model : BA/Software_Engineering_Models/iterative.md
-      - V-Model : BA/Software_Engineering_Models/v-model.md
-      - RAD Model : BA/Software_Engineering_Models/rad.md
-      - Spiral Model : BA/Software_Engineering_Models/spiral.md
-      - Agile Methodology : BA/Software_Engineering_Models/agile.md
-      - Scrum Model : BA/Software_Engineering_Models/scrum.md
-      - Kanban Model : BA/Software_Engineering_Models/kanban.md
-    - Documentation:
-      - Introduction: BA/Documentation/documentation.md
-      - Business Requirements Document(BRD) : BA/Documentation/brd.md
-      - User Stories : BA/Documentation/user_stories.md
-      - Flowcharts : BA/Documentation/flowchart.md
-      - Data Flow Diagram(DFD) : BA/Documentation/dfd.md
-      - Entity Relationship(ER) Diagram : BA/Documentation/er.md
-    - Testing :
-      - User Acceptance Testing : BA/Testing/uat.md
-    - Tools :
-      - JIRA : BA/Tools/jira.md
-      - Confluence : BA/Tools/confluence.md
+      - Introduction: BA/Index.md
+      - SDLC: BA/SDLC.md
+      - Requirement Gathering: BA/Requirement_gathering.md
+      - Software Engineering Models:
+          - Waterfall Model: BA/Software_Engineering_Models/waterfall.md
+          - Iterative Model: BA/Software_Engineering_Models/iterative.md
+          - V-Model: BA/Software_Engineering_Models/v-model.md
+          - RAD Model: BA/Software_Engineering_Models/rad.md
+          - Spiral Model: BA/Software_Engineering_Models/spiral.md
+          - Agile Methodology: BA/Software_Engineering_Models/agile.md
+          - Scrum Model: BA/Software_Engineering_Models/scrum.md
+          - Kanban Model: BA/Software_Engineering_Models/kanban.md
+      - Documentation:
+          - Introduction: BA/Documentation/documentation.md
+          - Business Requirements Document(BRD): BA/Documentation/brd.md
+          - User Stories: BA/Documentation/user_stories.md
+          - Flowcharts: BA/Documentation/flowchart.md
+          - Data Flow Diagram(DFD): BA/Documentation/dfd.md
+          - Entity Relationship(ER) Diagram: BA/Documentation/er.md
+      - Testing:
+          - User Acceptance Testing: BA/Testing/uat.md
+      - Tools:
+          - JIRA: BA/Tools/jira.md
+          - Confluence: BA/Tools/confluence.md
   - Flutter:
-    - Introduction: Flutter/index.md
-    - Basics of Dart: Flutter/basics_of_dart.md
-    - Introduction to widgets: Flutter/introduction_to_widgets.md
-    - Stateful and stateless widgets: Flutter/stateful_and_stateless_widgets.md
-    - State management: Flutter/state_management.md
+      - Introduction: Flutter/index.md
+      - Basics of Dart: Flutter/basics_of_dart.md
+      - Introduction to widgets: Flutter/introduction_to_widgets.md
+      - Stateful and stateless widgets: Flutter/stateful_and_stateless_widgets.md
+      - State management: Flutter/state_management.md
 
-  - Jobs: 
-    - Apply: jobs.md
-  - Build With Blackcurrant: 
-    - build-with-us.md
+  - Jobs:
+      - Apply: jobs.md
+  - Build With Blackcurrant:
+      - build-with-us.md
 
 theme:
   name: material
@@ -145,7 +147,7 @@ extra:
     property: G-PVYJKSE5RR
   consent:
     title: Cookie consent
-    description: >- 
+    description: >-
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
