@@ -15,6 +15,25 @@ An example strategy is shown below.
 
 <img src="/assets/branching.png">
 
+## Pull request essentials
+
+- Keep PRs focused on one problem.
+- Explain what changed and why.
+- Link issue/ticket references.
+- Add testing notes and screenshots where relevant.
+- Respond to review comments with clear updates.
+
+## Commit message basics
+
+- Use meaningful subject lines.
+- Mention *what* changed, not just *fixed stuff*.
+- Keep unrelated changes in separate commits.
+
+!!! tldr "Useful references"
+    - <a target="_blank" href="https://www.atlassian.com/git/tutorials">https://www.atlassian.com/git/tutorials</a>
+    - <a target="_blank" href="https://www.conventionalcommits.org/en/v1.0.0/">https://www.conventionalcommits.org/en/v1.0.0/</a>
+    - <a target="_blank" href="https://docs.github.com/en/pull-requests">https://docs.github.com/en/pull-requests</a>
+
 !!! success "Course"
     
     Complete this course<br>

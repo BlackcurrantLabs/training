@@ -38,3 +38,19 @@ Subscribe for good quality content on React + Next Ecosystem and to be constantl
 
 - <a href="https://www.youtube.com/@ByteGrad" target="_blank">https://www.youtube.com/@ByteGrad</a> 
 - <a href="https://www.youtube.com/@t3dotgg" target="_blank">https://www.youtube.com/@t3dotgg</a> 
+
+## Advanced nextjs topics to practice
+
+- Rendering strategy tradeoffs (SSR, SSG, ISR, client rendering)
+- Caching and revalidation strategy
+- API error handling and typed contracts
+- Performance budgets and Core Web Vitals
+- Auth flows with middleware and role checks
+- Monitoring production behavior
+
+!!! tldr "Resources"
+    - [Next.js Learn](https://nextjs.org/learn)
+    - [Next.js Docs](https://nextjs.org/docs)
+    - [React Docs](https://react.dev/learn)
+    - [Vercel Architecture Patterns](https://vercel.com/guides)
+    - [Web.dev Core Web Vitals](https://web.dev/articles/vitals)

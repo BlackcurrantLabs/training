@@ -19,6 +19,22 @@ Software Testing is a method to check whether the actual software product matche
 !!! tldr "Resources"
     To learn more, the best place to start is <a target="_blanck" href="https://www.geeksforgeeks.org/software-testing-basics/">https://www.geeksforgeeks.org/software-testing-basics/</a>
 
+## Advanced QA topics
 
+- Risk-based test planning
+- Test data management strategy
+- API contract and integration testing
+- Non-functional testing (performance, reliability, security)
+- Flaky test detection and stabilization
+- Shift-left and shift-right quality practices
+
+!!! tldr "Additional resources"
+    - [ISTQB Glossary](https://glossary.istqb.org/en/search)
+    - [Playwright Docs](https://playwright.dev/docs/intro)
+    - [Cypress Docs](https://docs.cypress.io/)
+    - [Postman Learning Center](https://learning.postman.com/)
+    - [k6 Performance Testing](https://k6.io/docs/)
+
+Before moving further, complete [Test Design Techniques](/QA/Manual/test-design-techniques/) to strengthen your manual testing fundamentals.
 
 

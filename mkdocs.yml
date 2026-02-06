@@ -10,6 +10,15 @@ nav:
   - Home:
       - Introduction: index.md
       - Contribute: contribute.md
+  - Foundations:
+      - Overview: Foundations/index.md
+      - Development Environment and Workflow: Foundations/dev-environment.md
+      - Linux and Command Line Basics: Foundations/linux-cli.md
+      - Web and HTTP Fundamentals: Foundations/web-http.md
+      - API Design Fundamentals: Foundations/api-design.md
+      - Debugging Fundamentals: Foundations/debugging.md
+      - Clean Code and Code Review: Foundations/clean-code.md
+      - Docker Basics: Foundations/docker.md
   - MEAN Stack:
       - Introduction: MEAN/index.md
       - HTML: MEAN/html.md
@@ -59,6 +68,7 @@ nav:
       - Laws of UX: UI/UX/laws-ux.md
       - Best Practices: UI/UX/principals.md
       - Design Guidelines: UI/UX/design-guidelines.md
+      - Accessibility Basics: UI/UX/accessibility.md
   - QA:
       - Introduction: QA/index.md
       - Manual:
@@ -66,6 +76,7 @@ nav:
           - SDLC: QA/Manual/sdlc.md
           - STLC: QA/Manual/stlc.md
           - Functional: QA/Manual/functional.md
+          - Test Design Techniques: QA/Manual/test-design-techniques.md
           - Test Cases: QA/Manual/test.md
           - Defect Lifecycle: QA/Manual/dlc.md
           - Smoke and Sanity: QA/Manual/sst.md
@@ -89,6 +100,7 @@ nav:
       - Introduction: BA/Index.md
       - SDLC: BA/SDLC.md
       - Requirement Gathering: BA/Requirement_gathering.md
+      - Requirement Prioritization: BA/Requirement_Prioritization.md
       - Software Engineering Models:
           - Waterfall Model: BA/Software_Engineering_Models/waterfall.md
           - Iterative Model: BA/Software_Engineering_Models/iterative.md
@@ -116,6 +128,15 @@ nav:
       - Introduction to widgets: Flutter/introduction_to_widgets.md
       - Stateful and stateless widgets: Flutter/stateful_and_stateless_widgets.md
       - State management: Flutter/state_management.md
+  - Advanced:
+      - Overview: Advanced/index.md
+      - System Design: Advanced/system-design.md
+      - Data Modeling and Migrations: Advanced/data-modeling-migrations.md
+      - Performance Engineering: Advanced/performance.md
+      - Application Security: Advanced/security.md
+      - Testing Strategy: Advanced/testing-strategy.md
+      - CI/CD and Release Engineering: Advanced/ci-cd.md
+      - Observability and Incident Response: Advanced/observability.md
 
   - Jobs:
       - Apply: jobs.md

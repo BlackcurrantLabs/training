@@ -54,4 +54,16 @@ While knowing multiple concepts is important, so is choosing your specialization
 Gaining depth of knowledge in your field is of primary importance, and having a working understanding of what your colleagues are doing is the next priority.
 So it's better to go ahead with a modified saying, **"Jack of all trades, master of *Some*."**
 
+## Recommended learning path
+
+1. Start with the **Foundations** section for essential engineering basics.
+2. Move to your specialization track (MEAN, NextJs, QA, BA, UI/UX, Flutter).
+3. Then complete the **Advanced** section for production-grade topics.
+
+!!! tldr "High-value references"
+    - [Roadmap.sh](https://roadmap.sh/)
+    - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+    - [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
+    - [Engineering Blogs Collection](https://github.com/kilimchoi/engineering-blogs)
+
 # <p align="center"><a target="_blank" href="/MEAN/">Get Started with MEAN</a></p>

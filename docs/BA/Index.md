@@ -22,3 +22,8 @@ In the initial phase of a project, when the requirements are being interpreted b
 
 !!! tldr "Resources"
     To learn more, the best place to start is <a target="_blanck" href="https://www.tutorialspoint.com/business_analysis/business_analysis_tutorial.pdf">https://www.tutorialspoint.com/business_analysis/business_analysis_tutorial.pdf</a>
+
+## Critical BA skill to learn next
+
+Requirement gathering alone is not enough. Prioritization drives real delivery outcomes.
+Continue with: [Requirement Prioritization](/BA/Requirement_Prioritization/)

@@ -65,3 +65,7 @@ Contrary to popular belief, negative feedback can actually be much more useful t
 Learn to seek and embrace negative design feedback and use it as fuel to improve your designs. Post your work on Dribbble and ask for constructive criticism—the community is here to help.
 
 In the end, negative feedback can be one of the most positive things that can happen in your design career. Just remember, you don’t need to overhaul all of your skills overnight. Trying to become one percent better every day will bring steady progress to success.
+
+## Critical follow-up chapter
+
+After this introduction, learn [Accessibility Basics](/UI/UX/accessibility/) to design interfaces that are usable by everyone.
