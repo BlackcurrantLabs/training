@@ -34,6 +34,7 @@ Software Testing is a method to check whether the actual software product matche
     - [Cypress Docs](https://docs.cypress.io/)
     - [Postman Learning Center](https://learning.postman.com/)
     - [k6 Performance Testing](https://k6.io/docs/)
+    - [Manual Testing Practice Workbook (Google Sheets)](https://docs.google.com/spreadsheets/d/1n3cT-LD2t9KEthCGNIT2dOmYSLDWt1dYjWfjHiv91aE/edit?usp=sharing) – A hands-on manual testing workbook containing practice websites, sample test cases, testing challenges, and guided exercises to help beginners strengthen their practical QA skills.
 
 Before moving further, complete [Test Design Techniques](/QA/Manual/test-design-techniques/) to strengthen your manual testing fundamentals.
 
