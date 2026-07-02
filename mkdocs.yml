@@ -86,6 +86,14 @@ nav:
           - Agile Methodology: QA/Manual/agile.md
           - Principles: QA/Manual/principle.md
           - Jira: QA/Manual/jira.md
+          - Test Case Practices :
+            - Overview: QA/Manual/Practice/overview.md
+            - GreenKart E-commerce: QA/Manual/Practice/greenkart.md
+            - Testing Challenges: QA/Manual/Practice/testing-challenges.md
+            - Tools.com: QA/Manual/Practice/tools.md
+            - QAFox.com: QA/Manual/Practice/qafox.md
+            - QA Practice.org : QA/Manual/Practice/qapractice.md
+            - BrowserStack Demo Site: QA/Manual/Practice/bstack.md
       - Automation:
           - Introduction: QA/Automation/Introduction.md
           - Javascript: QA/Automation/javascript.md
