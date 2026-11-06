@@ -63,6 +63,20 @@ nav:
       - React Query: Next/react-query.md
       - Forms: Next/forms.md
       - Tables: Next/tables.md
+  - Cloud:
+      - Introduction: Cloud/index.md
+      - Environment Setup: Cloud/setup.md
+      - Programming Logic & Git: Cloud/foundations.md
+      - Python for Automation: Cloud/python.md
+      - Networking & Shell Scripting: Cloud/networking.md
+      - Databases (SQL): Cloud/databases.md
+      - Docker & Containers: Cloud/docker.md
+      - CI/CD & Git Workflows: Cloud/cicd.md
+      - AWS Fundamentals: Cloud/aws.md
+      - Infrastructure as Code (Terraform): Cloud/terraform.md
+      - Kubernetes I - Fundamentals: Cloud/kubernetes-fundamentals.md
+      - Kubernetes II - Operations: Cloud/kubernetes-operations.md
+      - Monitoring, Observability & Security: Cloud/monitoring-security.md
   - UI/UX:
       - Introduction: UI/UX/index.md
       - Laws of UX: UI/UX/laws-ux.md
