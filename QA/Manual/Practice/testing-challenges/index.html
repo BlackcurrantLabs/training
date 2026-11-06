@@ -1,0 +1,6514 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated set of resources for becoming a full stack developer.">
+      
+      
+      
+        <link rel="canonical" href="https://training.blackcurrantlabs.com/QA/Manual/Practice/testing-challenges/">
+      
+      
+        <link rel="prev" href="../greenkart/">
+      
+      
+        <link rel="next" href="../tools/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/logo-icon-white.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Testing Challenges - Blackcurrant Training</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-PVYJKSE5RR"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-PVYJKSE5RR",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-PVYJKSE5RR",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#testing-challenges" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Blackcurrant Training" class="md-header__button md-logo" aria-label="Blackcurrant Training" data-md-component="logo">
+      
+  <img src="../../../../assets/logo-icon-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Blackcurrant Training
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Testing Challenges
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/BlackcurrantLabs/training" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    BlackcurrantLabs/training
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../Foundations/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Foundations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../MEAN/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  MEAN Stack
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../Next/Intro/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  NextJs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../UI/UX/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  UI/UX
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  QA
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../BA/Index/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  BA
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../Flutter/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Flutter
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../Advanced/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Advanced
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../jobs/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Jobs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../build-with-us/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Build With Blackcurrant
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Blackcurrant Training" class="md-nav__button md-logo" aria-label="Blackcurrant Training" data-md-component="logo">
+      
+  <img src="../../../../assets/logo-icon-white.png" alt="logo">
+
+    </a>
+    Blackcurrant Training
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/BlackcurrantLabs/training" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    BlackcurrantLabs/training
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../contribute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contribute
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../Foundations/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Foundations
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Foundations/dev-environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development Environment and Workflow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Foundations/linux-cli/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux and Command Line Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Foundations/web-http/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web and HTTP Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Foundations/api-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Design Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Foundations/debugging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Debugging Fundamentals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Foundations/clean-code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clean Code and Code Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Foundations/docker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docker Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../MEAN/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MEAN Stack
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MEAN Stack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/html/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTML
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/css/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CSS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/scss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SCSS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/javascript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Javascript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/typescript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Typescript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/rest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    REST Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Angular
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Angular
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/Angular/introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/Angular/advanced-concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced Concepts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Node.js
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Node.js
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/Node/node/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/Node/express/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Express
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authentication
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Authentication
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Auth/authentication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Auth/bcrypt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bcrypt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Auth/jwt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JWT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mongo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mongo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/Mongo/mongo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learn Mongo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/Mongo/mongoose/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mongoose
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_12" id="__nav_3_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MySQL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MySQL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/MySQL/mysql/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learn MySQL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../MEAN/MySQL/sequelize/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sequelize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_13" id="__nav_3_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Git
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Git
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../git/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_14" id="__nav_3_14_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Swagger
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Swagger
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../swagger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NextJs
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    NextJs
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/Intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/react/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    React
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/next/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NextJS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/routing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Routing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/authentication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Auth
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/state-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    State Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/client-server-components/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Client & Server Components
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/tailwindcss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TailwindCSS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/shadcn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadcn
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/drizzle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drizzle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/prisma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prisma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/orval/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Orval
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/react-query/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    React Query
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Next/tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../UI/UX/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UI/UX
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    UI/UX
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/UX/laws-ux/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laws of UX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/UX/principals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Best Practices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/UX/design-guidelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Guidelines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../UI/UX/accessibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibility Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QA
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    QA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manual
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Manual
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdlc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stlc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    STLC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../functional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Functional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../test-design-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Test Design Techniques
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Test Cases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dlc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Defect Lifecycle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sst/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Smoke and Sanity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regress/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regression
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../non-functional/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Non-Functional
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agile Methodology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Principles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../jira/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jira
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2_15" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_2_15" id="__nav_6_2_15_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Test Case Practices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_15_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Test Case Practices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../greenkart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GreenKart E-commerce
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testing Challenges
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools.com
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qafox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QAFox.com
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qapractice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QA Practice.org
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bstack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BrowserStack Demo Site
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Automation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Automation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Automation/Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Automation/javascript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Javascript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Automation/Cypress/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cypress
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Automation/protractor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protractor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Automation/Jest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobile Testing
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mobile Testing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Mobile/mobile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Advance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Certificates/certificate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    BA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/SDLC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SDLC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Requirement_gathering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requirement Gathering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Requirement_Prioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requirement Prioritization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software Engineering Models
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software Engineering Models
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Software_Engineering_Models/waterfall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waterfall Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Software_Engineering_Models/iterative/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iterative Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Software_Engineering_Models/v-model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    V-Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Software_Engineering_Models/rad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RAD Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Software_Engineering_Models/spiral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spiral Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Software_Engineering_Models/agile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agile Methodology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Software_Engineering_Models/scrum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scrum Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Software_Engineering_Models/kanban/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kanban Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Documentation/documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Documentation/brd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Business Requirements Document(BRD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Documentation/user_stories/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Stories
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Documentation/flowchart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flowcharts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Documentation/dfd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Flow Diagram(DFD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Documentation/er/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entity Relationship(ER) Diagram
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_7" id="__nav_7_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testing
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Testing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Testing/uat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Acceptance Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_8" id="__nav_7_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Tools/jira/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JIRA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BA/Tools/confluence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Confluence
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../Flutter/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flutter
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Flutter
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Flutter/basics_of_dart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics of Dart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Flutter/introduction_to_widgets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to widgets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Flutter/stateful_and_stateless_widgets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stateful and stateless widgets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Flutter/state_management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    State management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../Advanced/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Advanced
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Advanced/system-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Advanced/data-modeling-migrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Modeling and Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Advanced/performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Performance Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Advanced/security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Application Security
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Advanced/testing-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testing Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Advanced/ci-cd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CI/CD and Release Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Advanced/observability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Observability and Incident Response
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jobs
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Jobs
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../jobs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apply
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build With Blackcurrant
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Build With Blackcurrant
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../build-with-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blackcurrant ❤️ Software
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="testing-challenges">Testing Challenges</h1>
+<p>Testing Challenges are a collection of hands-on exercises designed to help beginners build confidence in software testing by practicing a wide variety of testing techniques and validating different types of input and edge cases.</p>
+<p>Before learning how to write formal test cases, it is important to understand how to think like a tester. These challenges focus on developing that mindset by encouraging you to explore application behavior, identify defects, validate expected outcomes, and investigate unusual or boundary conditions.</p>
+<p>By completing these challenges, you will:</p>
+<ul>
+<li>Develop a practical testing mindset.</li>
+<li>Improve your ability to identify functional and non-functional defects.</li>
+<li>Learn to think beyond happy-path scenarios by exploring boundary values, invalid inputs, security vulnerabilities, and edge cases.</li>
+<li>Build confidence in performing exploratory and manual testing.</li>
+<li>Strengthen your analytical and observation skills.</li>
+<li>Gain practical experience before moving on to formal test case design and documentation.</li>
+</ul>
+<p>Once you are comfortable identifying scenarios and defects through these exercises, writing structured test cases will become significantly easier and more meaningful.</p>
+<p><em>Note: Use Horizontal scroll (Shift+scroll) wherever required</em></p>
+<style>
+.challenge{margin-bottom:40px}
+.table-wrap{overflow-x:auto;margin:12px 0}
+.sheet{border-collapse:collapse;table-layout:fixed}
+.sheet td{
+border:1px solid #999;
+padding:6px;
+vertical-align:top;
+white-space:pre-wrap;
+overflow-wrap:break-word;
+}
+</style>
+
+<div class='challenge'>
+
+<h2>Testing Challenge #1 - web testing </h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/index.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:269px'>
+<col style='width:318px'>
+<col style='width:259px'>
+</colgroup>
+<tr>
+<td colspan='4' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 1 - web testing <b> </td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">Category</td>
+<td  style="font-weight:bold;text-align:center;">Defects / Out-comes</td>
+<td  style="font-weight:bold;text-align:center;">Input </td>
+<td rowspan='16' style="background-color:#F4CCCC;text-align:center;">15 out of 18 Found</td>
+</tr>
+<tr>
+<td rowspan='8' style="background-color:#FFFFFF;">Functional Tests</td>
+<td  style="background-color:#FFFFFF;">Minimum Value</td>
+<td  style="background-color:#FFFFFF;">Single character (e.g., &quot;A&quot;)</td>
+</tr>
+<tr>
+<td  style="background-color:#FFFFFF;">Space Values at the End</td>
+<td  style="background-color:#FFFFFF;">&quot;John &quot;</td>
+</tr>
+<tr>
+<td  style="background-color:#FFFFFF;">Space Values at the Beginning</td>
+<td  style="background-color:#FFFFFF;">&quot; John&quot;</td>
+</tr>
+<tr>
+<td  style="background-color:#FFFFFF;">Space in the Middle</td>
+<td  style="background-color:#FFFFFF;">&quot;John Doe&quot;</td>
+</tr>
+<tr>
+<td  style="background-color:#FFFFFF;">More than Maximum Values</td>
+<td  style="background-color:#FFFFFF;">&quot;ARHTRBEHFBEDSHFUVHVVEVURVHEVIRJJH&quot;</td>
+</tr>
+<tr>
+<td  style="background-color:#FFFFFF;">Empty Value</td>
+<td  style="background-color:#FFFFFF;">(No input)</td>
+</tr>
+<tr>
+<td  style="background-color:#FFFFFF;">Average Value</td>
+<td  style="background-color:#FFFFFF;">&quot;Michael&quot;</td>
+</tr>
+<tr>
+<td  style="background-color:#FFFFFF;">Only Space</td>
+<td  style="background-color:#FFFFFF;">&quot;            &quot; </td>
+</tr>
+<tr>
+<td rowspan='3' style="background-color:#EFEFEF;">Security Tests</td>
+<td  style="background-color:#EFEFEF;">HTML Tags</td>
+<td  style="background-color:#EFEFEF;">&quot;&lt;b&gt;John&lt;/b&gt;&quot;</td>
+</tr>
+<tr>
+<td  style="background-color:#EFEFEF;">Basic XSS</td>
+<td  style="background-color:#EFEFEF;">&quot;&lt;script&gt;alert(&#x27;XSS&#x27;)&lt;/script&gt;&quot;</td>
+</tr>
+<tr>
+<td  style="background-color:#EFEFEF;">Basic SQL Injection</td>
+<td  style="background-color:#EFEFEF;">&quot;&#x27; OR &#x27;1&#x27;=&#x27;1&quot;</td>
+</tr>
+<tr>
+<td rowspan='4' style="">Input Character Tests</td>
+<td  style="">Non-ASCII Characters</td>
+<td  style="">&quot;José&quot; or &quot;Åqsa&quot;</td>
+</tr>
+<tr>
+<td  style="">Other Characters Than Alphabetic</td>
+<td  style="">&quot;John123&quot; or &quot;John@Wick&quot;</td>
+</tr>
+<tr>
+<td  style="">Maximum Values</td>
+<td  style="">&quot;AETDHKGHIQKLMPONQRSTUVIXBZAQ&quot;</td>
+</tr>
+<tr>
+<td  style="">Basic Valid Input</td>
+<td  style="">&quot;John&quot;</td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #2 - bypass html 5 validations</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge2.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:269px'>
+<col style='width:318px'>
+<col style='width:259px'>
+</colgroup>
+<tr>
+<td colspan='4' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 2 - bypass html 5 validations<b> </td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">Step</td>
+<td  style="font-weight:bold;text-align:center;">Action Taken</td>
+<td  style="font-weight:bold;text-align:center;">Result</td>
+<td rowspan='7' style="background-color:#B6D7A8;text-align:center;">Challenge Successful !! </td>
+</tr>
+<tr>
+<td  style="">1. Opened the webpage with the form</td>
+<td  style="">Opened the form in the browser</td>
+<td  style="">Form loaded successfully</td>
+</tr>
+<tr>
+<td  style="">2. Identified the input field with numeric validation</td>
+<td  style="">Noticed the HTML5 validation (type=&#x27;number&#x27;)</td>
+<td  style="">HTML5 validation was visible</td>
+</tr>
+<tr>
+<td  style="">3. Opened Developer Tools in the browser using Inspect</td>
+<td  style="">Right-clicked the page, selected &#x27;Inspect&#x27;</td>
+<td  style="">Developer Tools opened correctly</td>
+</tr>
+<tr>
+<td  style="">4. Modified the input field validation</td>
+<td  style="">Changed the type attribute to &#x27;text&#x27; to bypass validation</td>
+<td  style="">Validation was bypassed</td>
+</tr>
+<tr>
+<td  style="">5. Entered invalid data in the input field</td>
+<td  style="">Entered a non-integer value (e.g., &#x27;hello&#x27; or &#x27;123.456&#x27;)</td>
+<td  style="">Form accepted invalid input</td>
+</tr>
+<tr>
+<td  style="">6. Submitted the form successfully with invalid data</td>
+<td  style="">Successfully submitted the form with invalid data</td>
+<td  style="">Form was submitted without any errors</td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #4 - generate testing data</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge4.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:269px'>
+<col style='width:318px'>
+<col style='width:259px'>
+<col style='width:168px'>
+<col style='width:126px'>
+<col style='width:140px'>
+<col style='width:193px'>
+<col style='width:202px'>
+<col style='width:193px'>
+</colgroup>
+<tr>
+<td colspan='4' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 4 - generate testing data<b></td>
+<td  style="background-color:#B6D7A8;text-align:center;">Challenge Successful !!</td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">CNP</td>
+<td  style="font-weight:bold;text-align:center;">Details of CNP</td>
+<td  style="font-weight:bold;text-align:center;">Control Number Calculations</td>
+<td rowspan='7' style="">1st Digit  (Gender and Time Period)<br><br>This digit give info about the gender and when the person was born<br><br>1 - Male, born between 1900 - 1999.<br>2 - Female, born between 1900 - 1999.<br>3 - Male, born between 1800 - 1899.<br>4 - Female, born between 1800 - 1899.<br>5 - Male, born between 2000 - 2099.<br>6 - Female, born between 2000 - 2099.<br>7 - Foreigner, male.<br>8 - Foreigner, female.<br>9 - Unknown gender, Not- Resident.</td>
+<td rowspan='7' style="">2nd and 3rd Digits (Year of Birth)<br><br>These two digits give info about the last two digits of the year of birth:<br><br>Ex: If born in 1985, it will be 85.<br>Ex: If born in 2003, it will be 03.</td>
+<td rowspan='7' style="">4th and 5th Digits ( Month of Birth )<br><br>These digits tgive info about the month of birth :<br><br>Ex:<br>01 - January<br>02  - February<br>12 - December</td>
+<td rowspan='7' style="">6th and 7th Digits - Day of Birth<br><br>These two digits give info about the day of birth:<br><br>Ex:<br>01 - 1st day of  month.<br>15  - 15th day of month.</td>
+<td rowspan='7' style="">8th and 9th Digits - Area Code<br><br>These digits give info about pincode of place of birth<br><br>Ex:<br><br>01 – Bucharest<br>02 – Arad<br><br>The exact area codes can be range from 01 to 52.</td>
+<td rowspan='7' style="">10th to 12th Digits - Order Number<br><br>These three digits give infoabout number of order per DAY<br><br>Ex: <br>001 is the first person registered that day.<br><br>456 could be the 456th person registered that day.</td>
+<td rowspan='7' style="">13th Digit – Control Number<br><br>This is a number to ensure the CNP is valid and calculated using the first 12 digits and the following formula:<br><br>Multiply each of the first 12 digits by a specific sequence:<br><br>2x Digit 1 + ,  7x Digit 2 + ,  9, 1, 4, 6, 3, 5, 8, 2, 7, 9. wagera wagera<br><br>Then Mod by 11, remainder is Control Number.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">1850415010013</td>
+<td  style="">1 - Male born between 1900 -1999.<br>85 -  Born in 1985.<br>04 -April.<br>15 - 15th day.<br>01 - Bucharest area.<br>001 - First record for that day.<br>3 - Control digit .</td>
+<td  style="text-align:left;">(1×2) + (8×7) + (5×9) + (0×1) + (4×4) + (1×6) + (5×3) + (0×5) + (1×8) + (0×2) + (0×7) + (1×9)<br>= 2 + 56 + 45 + 0 + 16 + 6 + 15 + 0 + 8 + 0 + 0 + 9 = 157 Mod 11 = 3</td>
+</tr>
+<tr>
+<td  style="text-align:center;">2990621010024</td>
+<td  style="">2 - Female born between 1900 -1999.<br>99 -  Born in 1999.<br>06 -  June.<br>21 -  21st day.<br>01 -  Bucharest area.<br>002 -  Second record for that day.<br>4 -  Control digit.</td>
+<td  style="">(2×2) + (9×7) + (9×9) + (0×1) + (6×4) + (2×6) + (1×3) + (0×5) + (1×8) + (0×2) + (0×7) + (2×9)<br>= 4 + 63 + 81 + 0 + 24 + 12 + 3 + 0 + 8 + 0 + 0 + 18 = 213 Mod 11 =4</td>
+</tr>
+<tr>
+<td  style="text-align:center;">1980324010013</td>
+<td  style="">1 - Male born between 1900 - 1999.<br>98 -  Born in 1998.<br>03 - March.<br>24 - 24th day.<br>01 - Bucharest area.<br>001 - First record for that day.<br>3 - Correct control digit (calculated).</td>
+<td  style="">(1×2) + (9×7) + (8×9) + (0×1) + (3×4) + (2×6) + (4×3) + (0×5) + (1×8) + (0×2) + (0×7) + (1×9)<br>= 2 + 63 + 72 + 0 + 12 + 12 + 12 + 0 + 8 + 0 + 0 + 9 = 190 Mod 11 = 3</td>
+</tr>
+<tr>
+<td  style="text-align:center;">3030415010044</td>
+<td  style="">3 - Male born between 1800 -1899.<br>03 - Born in 1803.<br>04 - April.<br>15 - 15th day.<br>01 - Bucharest area.<br>004 - Fourth record for that day.<br>4 - Correct control digit (calculated).</td>
+<td  style="">(3×2) + (0×7) + (3×9) + (0×1) + (4×4) + (1×6) + (5×3) + (0×5) + (1×8) + (0×2) + (0×7) + (4×9) = 6 + 0 + 27 + 0 + 16 + 6 + 15 + 0 + 8 + 0 + 0 + 36 = 114 Mod 11 = 4</td>
+</tr>
+<tr>
+<td  style="text-align:center;">2991223010053</td>
+<td  style="">2 - Female born between 1900 -1999.<br>99 - Born in 1999.<br>12 - December.<br>23 - 23rd day.<br>01 - Bucharest area.<br>005 - Fifth record for that day.<br>3 - Control digit (calculated).</td>
+<td  style="">(2×2) + (9×7) + (9×9) + (1×1) + (2×4) + (2×6) + (3×3) + (2×5) + (3×8) + (0×2) + (0×7) + (5×9)<br>= 4 + 63 + 81 + 1 + 8 + 12 + 9 + 10 + 24 + 0 + 0 + 45 = 157 Mod 11 = 3</td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #5 - using a web analytics engine</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge5.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:168px'>
+</colgroup>
+<tr>
+<td  style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 5 - using a web analytics engine<b></td>
+<td rowspan='3' style="background-color:#FFD966;text-align:center;">Challenge Incomplete !!</td>
+</tr>
+<tr>
+<td rowspan='2' style="">NEED TO BE DONE BY SELF, Consider following question before solving.<br>- What is this asking for?<br>- What am supposed to expect<br>- How am I supposed to do this?</td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #6 - Boundary testing</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge6.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:269px'>
+<col style='width:318px'>
+<col style='width:259px'>
+<col style='width:168px'>
+</colgroup>
+<tr>
+<td colspan='4' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 6 - Boundary testing<b> </td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;"></td>
+<td  style="font-weight:bold;text-align:center;">Input</td>
+<td  style="font-weight:bold;text-align:center;">Issue</td>
+<td  style="font-weight:bold;text-align:center;">Challenge&#x27;s Test &#x27;s Response</td>
+<td rowspan='17' style="background-color:#FFE599;text-align:center;">Challenge Incomplete !!</td>
+</tr>
+<tr>
+<td  style="text-align:left;">1</td>
+<td  style="text-align:left;">2016-12-31 23:59:00</td>
+<td  style="text-align:left;">Below the minimum year range</td>
+<td  style="background-color:#FFFFFF;">First date before 2017, December 2016 23:59</td>
+</tr>
+<tr>
+<td  style="text-align:left;">2</td>
+<td  style="text-align:left;">2018-01-01 00:00:00</td>
+<td  style="text-align:left;">Above the maximum year range</td>
+<td  style="text-align:left;">First date after 2017, January 2018 00:00<br></td>
+</tr>
+<tr>
+<td  style="text-align:left;">3</td>
+<td  style="text-align:left;">2017-01-20 14:20:00</td>
+<td  style="text-align:left;">Exactly 1-hour advance</td>
+<td  style="text-align:left;">Date less than 1 hour<br></td>
+</tr>
+<tr>
+<td  style="text-align:left;">4</td>
+<td  style="text-align:left;">29/02/2017 12:00</td>
+<td  style="text-align:left;">Invalid leap year date</td>
+<td  style="text-align:left;">Inexistent date 29 for February 2017<br></td>
+</tr>
+<tr>
+<td  style="text-align:left;">5</td>
+<td  style="text-align:left;">31/04/2017 12:00</td>
+<td  style="text-align:left;">Invalid day for April</td>
+<td  style="text-align:left;">31 days for 30 days months<br></td>
+</tr>
+<tr>
+<td  style="text-align:left;">6</td>
+<td  style="text-align:left;">32/01/2017 12:00</td>
+<td  style="text-align:left;">Non - existent day</td>
+<td  style="text-align:left;">32 days for 31 days months<br></td>
+</tr>
+<tr>
+<td  style="text-align:left;">7</td>
+<td  style="text-align:left;">20/13/2017 12:00</td>
+<td  style="text-align:left;">Invalid month</td>
+<td  style="text-align:left;">Higher limit for the month 13<br></td>
+</tr>
+<tr>
+<td  style="text-align:left;">8</td>
+<td  style="text-align:left;">00/01/2017 12:00</td>
+<td  style="text-align:left;">Zero as a day</td>
+<td  style="text-align:left;">Date with day = zero<br></td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #7 - Scenario Testing</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge7.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:259px'>
+</colgroup>
+<tr>
+<td colspan='2' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 7 - Scenario Testing<b></td>
+</tr>
+<tr>
+<td  style="">Danish Masood, a passionate QA intern at blackcurrant, was tasked with testing a new administrator portal for an online E-Turf booking and management platform. He followed agile testing practices, while working closely with developers to ensure each sprint is delivered promptly and accurately. Inspired by the principles of software craftsmanship, Danish suggested his teams of focusing on unit testing for critical features like user management and permissions.  His active approach caught several bugs early in the development phase, saving the team from last-minute chaos and time vulnerability.<br><br>By the end of the project, Danish’s efforts impressed the team, and the administrator portal was launched successfully, showcasing his growing expertise in QA.</td>
+<td  style="background-color:#B6D7A8;text-align:center;">Challenge Successful !!</td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #8 - State Transition</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge8.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:269px'>
+<col style='width:318px'>
+<col style='width:259px'>
+<col style='width:168px'>
+<col style='width:126px'>
+<col style='width:140px'>
+<col style='width:193px'>
+</colgroup>
+<tr>
+<td colspan='4' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 8 - State Transition<b></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">State</td>
+<td  style="font-weight:bold;text-align:center;">Selling</td>
+<td  style="font-weight:bold;text-align:center;">Description</td>
+<td  style="font-weight:bold;text-align:center;">Start Date</td>
+<td  style="font-weight:bold;text-align:center;">End Date</td>
+<td  style="font-weight:bold;text-align:center;">Action</td>
+<td  style="font-weight:bold;text-align:center;">Result</td>
+<td rowspan='5' style="background-color:#B6D7A8;text-align:center;">Challenge Sucessful !!</td>
+</tr>
+<tr>
+<td  style="">Saved</td>
+<td  style="">Potato</td>
+<td  style="">A highly fibrous vegetable root that grows under the ground.</td>
+<td  style="">11:00:00</td>
+<td  style="">12:00:00</td>
+<td  style="">Delete</td>
+<td  style="">Successfully deleted.</td>
+</tr>
+<tr>
+<td  style="">In Progress</td>
+<td  style="">Sweet Potato</td>
+<td  style="">A highly glutenous vegetable root that grows under the ground.</td>
+<td  style="">09:45:00</td>
+<td  style="">11:00:00</td>
+<td  style="">Delete</td>
+<td  style="">Deletion not allowed (as expected).</td>
+</tr>
+<tr>
+<td  style="">In Progress</td>
+<td  style="">Sweet Potato</td>
+<td  style="">A highly glutenous vegetable root that grows under the ground.</td>
+<td  style="">09:45:00</td>
+<td  style="">11:00:00</td>
+<td  style="">Archive</td>
+<td  style="">Archiving not allowed (as expected).</td>
+</tr>
+<tr>
+<td  style="">Finished</td>
+<td  style="">Bad Potato</td>
+<td  style="">A highly venomous vegetable root that grows under the ground.</td>
+<td  style="">09:48:00</td>
+<td  style="">09:49:00</td>
+<td  style="">Archive</td>
+<td  style="">Successfully archived.</td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #9 - Know your testing techniques</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge9.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:269px'>
+<col style='width:318px'>
+<col style='width:259px'>
+<col style='width:168px'>
+</colgroup>
+<tr>
+<td colspan='4' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 9 - Know your testing techniques<b></td>
+<td  style=""></td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">Words</td>
+<td  style="font-weight:bold;text-align:center;">Direction</td>
+<td  style="font-weight:bold;text-align:center;">Letters</td>
+<td  style="font-weight:bold;text-align:center;">Answer</td>
+<td  style="font-weight:bold;text-align:center;">Description</td>
+</tr>
+<tr>
+<td  style="text-align:center;">COMPLIANCETESTING</td>
+<td  style="text-align:center;">Down</td>
+<td  style="text-align:center;">17</td>
+<td  style="text-align:center;">Compliance Testing</td>
+<td  style="">Testing techniques used to assess if the product meets certain standards.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">GLOBALIZATIONTESTING</td>
+<td  style="text-align:center;">Across</td>
+<td  style="text-align:center;">20</td>
+<td  style="text-align:center;">Globalization Testing</td>
+<td  style="">Testing technique used when a product has customers all over the world.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">PERFORMANCETESTING</td>
+<td  style="text-align:center;">Down</td>
+<td  style="text-align:center;">18</td>
+<td  style="text-align:center;">Performance Testing</td>
+<td  style="">Testing technique used to evaluate if software and hardware are in tune.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">USABILITYTESTING</td>
+<td  style="text-align:center;">Down</td>
+<td  style="text-align:center;">16</td>
+<td  style="text-align:center;">Usability Testing</td>
+<td  style="">Technique concerned with the ease of use for a product.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">SECURITYTESTING</td>
+<td  style="text-align:center;">Down</td>
+<td  style="text-align:center;">15</td>
+<td  style="text-align:center;">Security Testing</td>
+<td  style="">Testing technique investigating threats such as viruses.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">PORTABILITYTESTING</td>
+<td  style="text-align:center;">Across</td>
+<td  style="text-align:center;">18</td>
+<td  style="text-align:center;">Portability Testing</td>
+<td  style="">Ensures the application can function on different platforms.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">SMOKETESTING</td>
+<td  style="text-align:center;">Across</td>
+<td  style="text-align:center;">12</td>
+<td  style="text-align:center;">Smoke Testing</td>
+<td  style="">Testing technique named after testing pipelines or electronic circuits.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">BOUNDARYVALUEANALYSIS</td>
+<td  style="text-align:center;">Down</td>
+<td  style="text-align:center;">21</td>
+<td  style="text-align:center;">Boundary Value Analysis</td>
+<td  style="">Focuses on testing valid and invalid limits.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">MONKEYTESTING</td>
+<td  style="text-align:center;">Across</td>
+<td  style="text-align:center;">13</td>
+<td  style="text-align:center;">Monkey Testing</td>
+<td  style="">Testing technique related to randomness, inspired by the animal.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">STATETRANSITION</td>
+<td  style="text-align:center;">Down</td>
+<td  style="text-align:center;">15</td>
+<td  style="text-align:center;">State Transition Testing</td>
+<td  style="">Focuses on checking how objects change their state during application operation.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">USEREXPERIENCE</td>
+<td  style="text-align:center;">Down</td>
+<td  style="text-align:center;">14</td>
+<td  style="text-align:center;">User Experience Testing</td>
+<td  style="">Concerned with all aspects of how a product is experienced by a user.</td>
+</tr>
+<tr>
+<td  style="text-align:center;">GUITESTING</td>
+<td  style="text-align:center;">Down</td>
+<td  style="text-align:center;">10</td>
+<td  style="text-align:center;">GUI Testing</td>
+<td  style="">Testing that focuses only on the end result visible to the user.</td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #10 - BUG HUNT - Part 01</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge10.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:269px'>
+<col style='width:318px'>
+<col style='width:259px'>
+</colgroup>
+<tr>
+<td colspan='4' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 10 - BUG HUNT - Part 01<b></td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">Defect Numbers </td>
+<td  style="font-weight:bold;text-align:center;">Input</td>
+<td  style="font-weight:bold;text-align:center;">Defect information</td>
+<td  style="font-weight:bold;text-align:center;">Advices from GPT (Got these with GPTs assistances)</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">1</td>
+<td  style="">&lt;script&gt;alert(&#x27;XSS&#x27;)&lt;/script&gt; or &#x27;; DROP TABLE users;--</td>
+<td  style="">Special characters like &lt;, &gt;, /, ; are allowed in the form fields.</td>
+<td  style="">Check if characters like &lt; or ; cause any issues (like breaking the form).</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">2</td>
+<td  style="">John (space) or Wick (space)</td>
+<td  style="">The form doesn’t remove spaces before or after the input.</td>
+<td  style="">See if spaces at the start or end of the text are causing issues when entering data.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">3</td>
+<td  style="">😀😆 or ñ (Unicode or non-ASCII characters)</td>
+<td  style="">The form lets you enter emojis or other non-standard characters.</td>
+<td  style="">Test if the form should reject things like emojis or weird symbols.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">4</td>
+<td  style="">user@example.com (already registered email)</td>
+<td  style="">The form lets you register with a username or email that’s already registerd.</td>
+<td  style="">Try registering with a username or email that’s already in the system and see if it stops you.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">5</td>
+<td  style=""> OR &#x27;1&#x27;=&#x27;1</td>
+<td  style="">The form accepts SQL commands, which can cause security issues.</td>
+<td  style="">Try entering SQL commands like &#x27; OR &#x27;1&#x27;=&#x27;1 in the username and password fields to check for security holes.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">6</td>
+<td  style="">password123 (check for plaintext)</td>
+<td  style="">The form sends or stores passwords without encryption.</td>
+<td  style="">Check if the password is visible or sent in a way that could be easily intercepted.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">7</td>
+<td  style="">Submit with invalid input empty, incorrect format</td>
+<td  style="">The system shows too much error info, like internal messages or technical details.</td>
+<td  style="">Try submitting incorrect info and see if it reveals any sensitive server information.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">8</td>
+<td  style="">john.wick@kalakhatta.com, password123</td>
+<td  style="">The form doesn’t store or show input correctly in the database.</td>
+<td  style="">Check if the data entered (name, email, password) shows up correctly in the database.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">9</td>
+<td  style="">NULL, empty fields, or missing values</td>
+<td  style="">The form or database doesn’t handle missing or incomplete data properly.</td>
+<td  style="">Test by leaving out some details (like the last name or email) and see how the system reacts.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">10</td>
+<td  style="">created_on  and last_updated  = non</td>
+<td  style="">Dates and times (created_on, last_updated) are missing or wrong in the database.</td>
+<td  style="">Test if the timestamps are saved and displayed right in the database.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">11</td>
+<td  style="">Refresh page after registration</td>
+<td  style="">After registering, refreshing the page causes the user to disappear from the system.</td>
+<td  style="">Check if the data is still there after refreshing or restarting the app.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">12</td>
+<td  style="">Leave required fields blank and click &quot;Submit&quot;</td>
+<td  style="">The &quot;Submit&quot; button stays active even when fields are missing.</td>
+<td  style="">Make sure the &quot;Submit&quot; button only works when all the fields are filled correctly.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">13</td>
+<td  style="">invalid email or leave a field blank</td>
+<td  style="">The form doesn’t show proper error messages for invalid or incomplete fields.</td>
+<td  style="">Try submitting wrong info (like an email without @) and see if the right message shows up.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">14</td>
+<td  style="">Resize browser window</td>
+<td  style="">The screen layout doesn’t adjust correctly when the screen is resized.</td>
+<td  style="">Test how the form looks on different screen sizes by resizing the browser or using mobile mode.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">15</td>
+<td  style="">john.wick@example.com, password123 (registered user)</td>
+<td  style="">Registered users can’t log in properly.</td>
+<td  style="">Try logging in with a user that’s already registered to see if login works as expected.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">16</td>
+<td  style="">Keep the session idle for an extended time (15 minutes)</td>
+<td  style="">The session doesn’t automatically log out after a certain time.</td>
+<td  style="">Leave the app idle for a while and see if it logs you out after a period of inactivity.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">17</td>
+<td rowspan='5' colspan='3' style="font-weight:bold;text-align:center;">Not able to get anything about these five. </td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">18</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">19</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">21</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">20</td>
+</tr>
+</table></div></div>
+<div class='challenge'>
+
+<h2>Testing Challenge #10 - BUG HUNT - Part Two</h2>
+
+<p><strong>Website:</strong> <a href="http://testingchallenges.thetestingmap.org/challenge10submitreport.php" target="_blank">testingchallenges.thetestingmap.org</a></p>
+
+
+<div class='table-wrap'><table class='sheet'><colgroup>
+<col style='width:200px'>
+<col style='width:269px'>
+<col style='width:318px'>
+<col style='width:259px'>
+</colgroup>
+<tr>
+<td colspan='4' style="background-color:#D0E0E3;text-align:center;"><b>Testing Challenge 10 - BUG HUNT - Part Two<b></td>
+</tr>
+<tr>
+<td  style="font-weight:bold;text-align:center;">Category</td>
+<td  style="font-weight:bold;text-align:center;">Number</td>
+<td  style="font-weight:bold;text-align:center;">Description</td>
+<td  style="font-weight:bold;text-align:center;">Notes</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;">Top 5 Bugs</td>
+<td  style="text-align:center;">1</td>
+<td  style="text-align:left;">SQL Injection Vulnerability</td>
+<td  style="">Fields accept SQL injection queries in passwords and other fields, creating a major security issue</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;"></td>
+<td  style="text-align:center;">2</td>
+<td  style="text-align:left;">Duplicate User Registrations</td>
+<td  style="">The form allows already registered values to be registered again, indicating a lack of uniqueness validation.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;"></td>
+<td  style="text-align:center;">3</td>
+<td  style="text-align:left;">No Error Messages</td>
+<td  style="">Missing error feedback for duplicate registrations, incomplete fields, and invalid input formats creates confusion.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;"></td>
+<td  style="text-align:center;">4</td>
+<td  style="text-align:left;">&quot;Only-Space&quot; Input Accepted</td>
+<td  style="">Fields for First Name, Last Name, and Username accept inputs consisting of only spaces, which is invalid.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;"></td>
+<td  style="text-align:center;">5</td>
+<td  style="text-align:left;">Database Data Missing</td>
+<td  style="">Database does not show values in the :active, created_on, and created_by_id fields, impacting tracking and auditability.</td>
+</tr>
+<tr>
+<td  style="font-weight:bold;">Top 5 Issues</td>
+<td  style="text-align:center;">1</td>
+<td  style="text-align:left;">Form Validation Inadequacies</td>
+<td  style="">First Name accepts numbers and special characters, violating typical input standards for this field.</td>
+</tr>
+<tr>
+<td  style=""></td>
+<td  style="text-align:center;">2</td>
+<td  style="text-align:left;">Password Field Design</td>
+<td  style="">The password text field is poorly bordered, impacting user experience and usability.</td>
+</tr>
+<tr>
+<td  style=""></td>
+<td  style="text-align:center;">3</td>
+<td  style="text-align:left;">Non-ASCII Input Acceptance</td>
+<td  style="">The form accepts non-ASCII values, which might need improvement depending on localization and character set requirements.</td>
+</tr>
+<tr>
+<td  style=""></td>
+<td  style="text-align:center;">4</td>
+<td  style="text-align:left;">Whitespace Handling</td>
+<td  style="">Leading/trailing spaces are not trimmed in input fields, allowing for potential inconsistencies in the database.</td>
+</tr>
+<tr>
+<td  style=""></td>
+<td  style="text-align:center;">5</td>
+<td  style="text-align:left;">Localization Missing/Error Messages</td>
+<td  style="">If the form is expected to support multiple languages, it lacks necessary translations for error feedback.</td>
+</tr>
+</table></div></div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2016 - 2022 Blackcurrant Labs Pvt. Ltd.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" checked>
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.instant", "navigation.sections", "navigation.expand", "navigation.indexes"], "search": "../../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>
